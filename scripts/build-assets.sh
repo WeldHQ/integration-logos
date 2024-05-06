@@ -7,5 +7,7 @@ copy_contents_recursive() {
     rsync -av "$source/" "$target"
 }
 
-copy_contents_recursive "./logos" "./dist"
-copy_contents_recursive "./types" "./dist"
+./node_modules/typescript/bin/tsc -p logos/tsconfig.json
+
+# Copy all assets to the dist folder
+copy_contents_recursive "./logos/integrations" "./dist/integrations"

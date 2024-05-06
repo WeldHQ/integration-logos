@@ -9,7 +9,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "prepare": "npm run build:assets",
-    "prebuild": "rimraf dist",
+    "prebuild:assets": "rimraf dist",
     "build:assets": "./scripts/build-assets.sh",
     "dev": "next dev",
     "build": "next build",
