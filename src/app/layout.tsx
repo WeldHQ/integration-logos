@@ -1,8 +1,13 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+import type { Metadata } from "next";
+import { Inter as FontSans } from "next/font/google";
+
+import { ThemeProvider } from "@/components/theme-provider";
+import { ModeToggle } from "@/components/ui/mode-toggle";
+import { cn } from "@/lib/utils";
+
+const fontSans = FontSans({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +21,33 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body
+        className={cn(
+          "min-h-screen bg-background font-sans antialiased",
+          fontSans.variable
+        )}
+      >
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <div className="flex flex-col h-full">
+            <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+              <div className="flex items-center w-full px-4 py-2 ">
+                <div className="text-2xl font-semibold">
+                  Weld Integration icons
+                </div>
+                <div className="ml-auto">
+                  <ModeToggle />
+                </div>
+              </div>
+            </header>
+            <div>{children}</div>
+          </div>
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
