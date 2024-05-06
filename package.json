@@ -4,7 +4,7 @@
   "private": true,
   "main": "dist/index.mjs",
   "scripts": {
-    "prepare": "build:assets",
+    "prepare": "npm run build:assets",
     "build:assets": "node ./src/scripts/build-assets.mjs",
     "dev": "next dev",
     "build": "next build",
