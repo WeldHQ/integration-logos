@@ -3,9 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "main": "dist/index.mjs",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
   "scripts": {
     "prepare": "npm run build:assets",
-    "build:assets": "node ./src/scripts/build-assets.mjs",
+    "prebuild": "rimraf dist",
+    "build:assets": "./scripts/build-assets.sh",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -23,6 +28,7 @@
     "next-themes": "^0.3.0",
     "react": "^18",
     "react-dom": "^18",
+    "rimraf": "^5.0.5",
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7"
   },
