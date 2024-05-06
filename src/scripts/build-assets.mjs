@@ -26,13 +26,13 @@ integrationFolders.forEach((integrationId) => {
 });
 console.log(integrations);
 
-fs.mkdir(path.join(process.cwd(), "dist"), { recursive: true }, (err) => {
+fs.mkdirSync(path.join(process.cwd(), "dist"), { recursive: true }, (err) => {
   if (err) throw err;
 });
 fs.writeFileSync(
   path.join(process.cwd(), "dist", "index.mjs"),
   `
-  export * as ${"airtable"} from "${integrations.get("airtable")}";
+export * as ${"airtable"} from "${integrations.get("airtable")}";
 `
 );
 
