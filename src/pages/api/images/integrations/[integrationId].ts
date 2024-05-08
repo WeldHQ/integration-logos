@@ -32,7 +32,7 @@ export default async function getImage(
     );
   }
 
-  const integrationsFolder = "/src/assets/integrations";
+  const integrationsFolder = "/logos/integrations";
   const iconFiles = fs
     .readdirSync(path.join(process.cwd(), integrationsFolder, integrationId))
     .filter((x) => x.startsWith("icon."));

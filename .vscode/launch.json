@@ -2,6 +2,12 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Debug Build COnfig",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "npm run build:config"
+    },
+    {
       "name": "Next.js: debug server-side",
       "type": "node-terminal",
       "request": "launch",

@@ -3,33 +3,62 @@ import path from "path";
 
 import { ComponentProps } from "react";
 
+import config from "@/../logos";
 import IconWithBG from "@/app/components/icon/IconWithBG";
-import cn from "@/app/util/cn";
+import { HSLColor, formatHSLA, parseHSLA } from "@/app/util/colors";
 
-const byteValueNumberFormatter = Intl.NumberFormat("en", {
-  notation: "compact",
-  style: "unit",
-  unit: "byte",
-  unitDisplay: "narrow",
-});
+import { Icon } from "./Icon";
 
-function useFile(integrationId: string) {
-  const baseUrl = `/src/assets/integrations/${integrationId}`;
-  // console.log(path.join(process.cwd(), baseUrl));
+const defaultBackground = { h: 0, s: 0, l: 0.95, a: 1 };
+
+function useIntegrationConfig(integrationId: string) {
+  const baseUrl = `/logos/integrations/${integrationId}`;
   const iconFiles = fs
     .readdirSync(path.join(process.cwd(), baseUrl))
     .filter((x) => x.startsWith("icon."));
-  // console.log({ iconFiles });
+
   if (iconFiles.length === 0) {
     return null;
   }
   const iconFile = iconFiles[0];
   const filePath = path.join(process.cwd(), baseUrl, iconFile);
   const fileStats = fs.statSync(filePath);
+
+  const colorConfig: {
+    bg?: string;
+    bg_dark?: string;
+  } = config[integrationId as keyof typeof config];
   return {
     url: `/api/images/integrations/${integrationId}`,
     size: fileStats.size,
     type: path.extname(iconFile),
+    bg: {
+      light: colorConfig.bg ? parseHSLA(colorConfig.bg) : defaultBackground,
+      dark: colorConfig.bg_dark
+        ? parseHSLA(colorConfig.bg_dark)
+        : defaultBackground,
+    },
+  };
+}
+
+function useUpdateColorConfig() {
+  return async (
+    integrationId: string,
+    colorConfig: {
+      light: HSLColor;
+      dark: HSLColor;
+    }
+  ) => {
+    "use server";
+    const configFilePath = path.join(process.cwd(), "logos/config.json");
+    const config = (await import("@/../logos/config.json")).default;
+
+    config[integrationId as keyof typeof config] = {
+      bg: formatHSLA(colorConfig.light),
+      bg_dark: formatHSLA(colorConfig.dark),
+    };
+
+    fs.writeFileSync(configFilePath, JSON.stringify(config, null, 2));
   };
 }
 
@@ -39,50 +68,28 @@ export function IconContainer(
   } & Pick<Partial<ComponentProps<typeof IconWithBG>>, "size">
 ) {
   const { id, ...restProps } = props;
-  const file = useFile(id);
-  if (file == null) {
-    return (
-      <Box>
-        <IconWithBG {...restProps} icon={<div>?</div>} size={props.size} />
-        <div className="w-full text-sm truncate text-center">
-          <span>{props.id}</span>
-        </div>
-      </Box>
-    );
+  const config = useIntegrationConfig(id);
+  const update = useUpdateColorConfig();
+
+  console.log("file", config);
+
+  async function updateColor(config: { light: HSLColor; dark: HSLColor }) {
+    "use server";
+    update(id, config);
   }
-  return (
-    <Box className={cn({ "outline outline-red-500": file.size > 10_000 })}>
+
+  if (config == null) {
+    return (
       <IconWithBG
         {...restProps}
-        icon={<img src={file.url} alt={file.url} />}
-        // color={getIntegrationIconColorInRgba(integrationId, 0.2)}
+        icon={<div>?</div>}
+        color="hsl(0 0% 25%)"
         size={props.size}
       />
-      <div className="w-full text-sm truncate text-center">
-        <span>{props.id}</span>
-      </div>
-      <div className="absolute top-0 left-0.5">
-        <div className={cn("text-xs")}>{file.type}</div>
-      </div>
-      <div className="absolute top-0 right-0.5">
-        <div className={cn("text-xs")}>
-          {byteValueNumberFormatter.format(file.size)}
-        </div>
-      </div>
-    </Box>
-  );
-}
+    );
+  }
 
-function Box(props: ComponentProps<"div">) {
   return (
-    <div
-      {...props}
-      className={cn(
-        "flex flex-col gap-1 items-center overflow-hidden border border-border/70 rounded-md p-2 relative",
-        props.className
-      )}
-    >
-      {props.children}
-    </div>
+    <Icon id={id} config={config} onColorChange={updateColor} {...restProps} />
   );
 }
