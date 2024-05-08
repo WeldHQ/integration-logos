@@ -659,11 +659,11 @@
     "bg": "hsl(213 67% 88.8%)",
     "bg_dark": "hsl(213 53.6% 17.6%)"
   },
-  "one_drive": {
-    "fileName": "one_drive.svg",
+  "one-drive": {
+    "fileName": "one-drive.svg",
     "fileType": ".svg",
     "bg": "hsl(200 82% 90.6%)",
-    "bg_dark": "hsl(200 65% 21%)"
+    "bg_dark": "hsl(200 65.60000000000001% 21.200000000000003%)"
   },
   "openweather": {
     "fileName": "openweather.svg",
