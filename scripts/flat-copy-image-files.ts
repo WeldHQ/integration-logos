@@ -9,7 +9,10 @@ const distFolder = path.join(process.cwd(), process.argv[3]);
 Object.entries(config).forEach(([integrationId, integrationConfig]) => {
   fs.copyFile(
     path.join(imagesFolder, integrationId, integrationConfig.fileName),
-    path.join(distFolder, integrationConfig.fileName),
+    path.join(
+      distFolder,
+      `${integrationId}${path.extname(integrationConfig.fileName)}`
+    ),
     (err) => {
       if (err) {
         console.error(err);

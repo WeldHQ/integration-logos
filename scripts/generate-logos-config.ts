@@ -85,6 +85,7 @@ async function run() {
   const newConfig: {
     integrationId: string;
     fileName: string;
+    fileType: string;
     bg: string;
     bg_dark: string;
   }[] = [];
@@ -96,6 +97,7 @@ async function run() {
       newConfig.push({
         integrationId: item.integrationId,
         fileName: item.fileName,
+        fileType: path.extname(item.fileName),
         bg: previousConfig[item.integrationId as keyof typeof previousConfig]
           .bg,
         bg_dark:
@@ -153,6 +155,7 @@ async function run() {
     newConfig.push({
       integrationId: newIntegration.integrationId,
       fileName: newIntegration.fileName,
+      fileType: path.extname(newIntegration.fileName),
       bg: `hsl(${bg_light.h} ${bg_light.s}% ${bg_light.l}%)`,
       bg_dark: `hsl(${bg_dark.h} ${bg_dark.s}% ${bg_dark.l}%)`,
     });
@@ -163,11 +166,12 @@ async function run() {
     .reduce((acc, item) => {
       acc[item.integrationId] = {
         fileName: item.fileName,
+        fileType: item.fileType,
         bg: item.bg,
         bg_dark: item.bg_dark,
       };
       return acc;
-    }, {} as { [key: string]: { bg: string; bg_dark: string; fileName: string } });
+    }, {} as { [key: string]: { bg: string; bg_dark: string; fileName: string; fileType: string } });
 
   fs.writeFileSync(configFilePath, JSON.stringify(obj, null, 2));
 }
