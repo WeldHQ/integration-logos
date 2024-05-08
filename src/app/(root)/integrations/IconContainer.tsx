@@ -1,41 +1,39 @@
 import fs from "fs";
 import path from "path";
 
-import { ComponentProps } from "react";
+import { ComponentProps, use } from "react";
 
 import config from "@/../logos";
 import IconWithBG from "@/app/components/icon/IconWithBG";
-import { HSLColor, formatHSLA, parseHSLA } from "@/app/util/colors";
+import { HSLColor, formatHSL, parseHSLA } from "@/app/util/colors";
 
 import { Icon } from "./Icon";
+
+const getIntegrationConfig = (integrationId: string) => {
+  return config[integrationId as keyof typeof config];
+};
 
 const defaultBackground = { h: 0, s: 0, l: 0.95, a: 1 };
 
 function useIntegrationConfig(integrationId: string) {
   const baseUrl = `/logos/integrations/${integrationId}`;
-  const iconFiles = fs
-    .readdirSync(path.join(process.cwd(), baseUrl))
-    .filter((x) => x.startsWith("icon."));
-
-  if (iconFiles.length === 0) {
-    return null;
-  }
-  const iconFile = iconFiles[0];
-  const filePath = path.join(process.cwd(), baseUrl, iconFile);
+  const integrationConfig = getIntegrationConfig(integrationId);
+  const filePath = path.join(
+    process.cwd(),
+    baseUrl,
+    integrationConfig.fileName
+  );
   const fileStats = fs.statSync(filePath);
-
-  const colorConfig: {
-    bg?: string;
-    bg_dark?: string;
-  } = config[integrationId as keyof typeof config];
   return {
     url: `/api/images/integrations/${integrationId}`,
     size: fileStats.size,
-    type: path.extname(iconFile),
+    type: path.extname(filePath),
     bg: {
-      light: colorConfig.bg ? parseHSLA(colorConfig.bg) : defaultBackground,
-      dark: colorConfig.bg_dark
-        ? parseHSLA(colorConfig.bg_dark)
+      light: integrationConfig.bg
+        ? parseHSLA(integrationConfig.bg)
+        : defaultBackground,
+      dark: integrationConfig.bg_dark
+        ? parseHSLA(integrationConfig.bg_dark)
         : defaultBackground,
     },
   };
@@ -54,8 +52,9 @@ function useUpdateColorConfig() {
     const config = (await import("@/../logos/config.json")).default;
 
     config[integrationId as keyof typeof config] = {
-      bg: formatHSLA(colorConfig.light),
-      bg_dark: formatHSLA(colorConfig.dark),
+      ...config[integrationId as keyof typeof config],
+      bg: formatHSL(colorConfig.light),
+      bg_dark: formatHSL(colorConfig.dark),
     };
 
     fs.writeFileSync(configFilePath, JSON.stringify(config, null, 2));
@@ -70,8 +69,6 @@ export function IconContainer(
   const { id, ...restProps } = props;
   const config = useIntegrationConfig(id);
   const update = useUpdateColorConfig();
-
-  console.log("file", config);
 
   async function updateColor(config: { light: HSLColor; dark: HSLColor }) {
     "use server";

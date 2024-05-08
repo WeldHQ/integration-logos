@@ -1,657 +1,821 @@
 {
   "activecampaign": {
+    "fileName": "activecampaign.svg",
     "bg": "hsl(222 77% 91%)",
     "bg_dark": "hsl(222 61.6% 22%)"
   },
   "adobe-commerce": {
+    "fileName": "adobe-commerce.svg",
     "bg": "hsl(3 95% 94.8%)",
     "bg_dark": "hsl(3 76% 29.6%)"
   },
   "airtable": {
+    "fileName": "airtable.svg",
     "bg": "hsl(197 100% 92%)",
     "bg_dark": "hsl(197 70% 24%)"
   },
   "amazon-ads": {
+    "fileName": "amazon-ads.svg",
     "bg": "hsl(36 100% 90%)",
     "bg_dark": "hsl(36 80% 20%)"
   },
   "amazon-aurora-mysql": {
-    "bg": "hsl(191 100% 85%)",
+    "fileName": "amazon-aurora-mysql.svg",
+    "bg": "hsl(191 100% 93%)",
     "bg_dark": "hsl(191 80% 10%)"
   },
   "amazon-aurora-postgresql": {
+    "fileName": "amazon-aurora-postgresql.svg",
     "bg": "hsl(206 29% 93.8%)",
-    "bg_dark": "hsl(206 23.200000000000003% 27.6%)"
+    "bg_dark": "hsl(206 23% 27.6%)"
   },
   "amazon-mws": {
+    "fileName": "amazon-mws.svg",
     "bg": "hsl(36 100% 90%)",
     "bg_dark": "hsl(36 80% 20%)"
   },
   "amazon-selling-api": {
+    "fileName": "amazon-selling-api.svg",
     "bg": "hsl(36 100% 90%)",
     "bg_dark": "hsl(36 80% 20%)"
   },
   "amazon-selling-api-oauth": {
+    "fileName": "amazon-selling-api-oauth.svg",
     "bg": "hsl(36 100% 90%)",
     "bg_dark": "hsl(36 80% 20%)"
   },
   "amazon-vendor-central": {
+    "fileName": "amazon-vendor-central.svg",
     "bg": "hsl(36 100% 90%)",
     "bg_dark": "hsl(36 80% 20%)"
   },
   "app-store-connect": {
+    "fileName": "app-store-connect.svg",
     "bg": "hsl(198 95% 90.6%)",
-    "bg_dark": "hsl(198 76% 21.200000000000003%)"
+    "bg_dark": "hsl(198 76% 21%)"
   },
   "appsflyer": {
+    "fileName": "appsflyer.svg",
     "bg": "hsl(207 64% 90.6%)",
-    "bg_dark": "hsl(207 51.2% 21.200000000000003%)"
+    "bg_dark": "hsl(207 51.2% 21%)"
   },
   "asana": {
+    "fileName": "asana.svg",
     "bg": "hsl(0 83% 92.6%)",
-    "bg_dark": "hsl(0 66.4% 25.200000000000003%)"
+    "bg_dark": "hsl(0 66.4% 25%)"
   },
   "autopilot": {
+    "fileName": "autopilot.svg",
     "bg": "hsl(169 62% 94.2%)",
-    "bg_dark": "hsl(169 49.6% 28.400000000000002%)"
+    "bg_dark": "hsl(169 49.6% 28%)"
   },
   "aws-lambda": {
+    "fileName": "aws-lambda.svg",
     "bg": "hsl(27 95% 90.4%)",
     "bg_dark": "hsl(27 76% 20.8%)"
   },
   "aws-s3": {
+    "fileName": "aws-s3.svg",
     "bg": "hsl(6 41% 91.4%)",
-    "bg_dark": "hsl(6 32.800000000000004% 22.8%)"
+    "bg_dark": "hsl(6 32% 22.8%)"
   },
   "aws-s3__csv": {
+    "fileName": "aws-s3__csv.svg",
     "bg": "hsl(0 0% 92%)",
     "bg_dark": "hsl(0 0% 75%)"
   },
   "azure-analytics": {
+    "fileName": "azure-analytics.svg",
     "bg": "hsl(208 67% 88.6%)",
     "bg_dark": "hsl(208 53.6% 17.2%)"
   },
   "azure-blob": {
+    "fileName": "azure-blob.svg",
     "bg": "hsl(201 100% 88.2%)",
-    "bg_dark": "hsl(201 80% 16.400000000000002%)"
+    "bg_dark": "hsl(201 80% 16%)"
   },
   "azure-cosmos": {
+    "fileName": "azure-cosmos.svg",
     "bg": "hsl(209 58% 89.2%)",
-    "bg_dark": "hsl(209 46.400000000000006% 18.400000000000002%)"
+    "bg_dark": "hsl(209 46% 18%)"
   },
   "azure-sql": {
+    "fileName": "azure-sql.svg",
     "bg": "hsl(208 65% 88.6%)",
     "bg_dark": "hsl(208 52% 17.2%)"
   },
   "azure-synapse": {
+    "fileName": "azure-synapse.svg",
     "bg": "hsl(208 67% 88.6%)",
     "bg_dark": "hsl(208 53.6% 17.2%)"
   },
   "bigcommerce": {
+    "fileName": "bigcommerce.svg",
     "bg": "hsl(252 12% 84%)",
     "bg_dark": "hsl(252 0% 66%)"
   },
   "bigquery": {
+    "fileName": "bigquery.svg",
     "bg": "hsl(217 92% 92.2%)",
-    "bg_dark": "hsl(217 73.60000000000001% 24.400000000000002%)"
+    "bg_dark": "hsl(217 73% 24%)"
   },
   "business-central": {
+    "fileName": "business-central.svg",
     "bg": "hsl(184 100% 86.4%)",
     "bg_dark": "hsl(184 80% 12.8%)"
   },
   "chargebee": {
+    "fileName": "chargebee.svg",
     "bg": "hsl(16 100% 92%)",
     "bg_dark": "hsl(16 80% 24%)"
   },
   "chartmogul": {
+    "fileName": "chartmogul.svg",
     "bg": "hsl(0 0% 92%)",
     "bg_dark": "hsl(0 0% 59%)"
   },
   "clerkio": {
+    "fileName": "clerkio.svg",
     "bg": "hsl(14 100% 91.4%)",
     "bg_dark": "hsl(14 80% 22.8%)"
   },
   "clickup": {
+    "fileName": "clickup.svg",
     "bg": "hsl(231 100% 95%)",
     "bg_dark": "hsl(327 32% 40%)"
   },
   "contact-form-seven": {
+    "fileName": "contact-form-seven.svg",
     "bg": "hsl(220 97% 92%)",
     "bg_dark": "hsl(220 59% 36%)"
   },
   "custom-integration": {
+    "fileName": "custom-integration.svg",
     "bg": "hsl(0 0% 92%)",
     "bg_dark": "hsl(0 0% 75%)"
   },
   "custom-integration-v2": {
+    "fileName": "custom-integration-v2.svg",
     "bg": "hsl(0 0% 92%)",
     "bg_dark": "hsl(0 0% 75%)"
   },
   "customer-io": {
+    "fileName": "customer-io.svg",
     "bg": "hsl(167 100% 89.2%)",
-    "bg_dark": "hsl(167 80% 18.400000000000002%)"
+    "bg_dark": "hsl(167 80% 18%)"
   },
   "daisycon": {
+    "fileName": "daisycon.svg",
     "bg": "hsl(80 62% 90%)",
     "bg_dark": "hsl(80 83% 18%)"
   },
   "dandomain-webshop": {
+    "fileName": "dandomain-webshop.png",
     "bg": "hsl(30 100% 89%)",
     "bg_dark": "hsl(30 80% 18%)"
   },
   "databricks": {
+    "fileName": "databricks.svg",
     "bg": "hsl(5 85% 91%)",
     "bg_dark": "hsl(5 26% 37%)"
   },
   "discourse": {
+    "fileName": "discourse.svg",
     "bg": "hsl(196 100% 89.2%)",
-    "bg_dark": "hsl(196 80% 18.400000000000002%)"
+    "bg_dark": "hsl(196 80% 18%)"
   },
   "dixa": {
+    "fileName": "dixa.svg",
     "bg": "hsl(249 74% 91%)",
     "bg_dark": "hsl(249 36% 70%)"
   },
   "drupal": {
+    "fileName": "drupal.svg",
     "bg": "hsl(202 60% 94.6%)",
-    "bg_dark": "hsl(202 48% 29.200000000000003%)"
+    "bg_dark": "hsl(202 48% 29%)"
   },
   "dynamodb": {
+    "fileName": "dynamodb.svg",
     "bg": "hsl(210 60% 88.8%)",
     "bg_dark": "hsl(210 48% 17.6%)"
   },
   "economic": {
+    "fileName": "economic.svg",
     "bg": "hsl(35 80% 90.8%)",
     "bg_dark": "hsl(35 64% 21.6%)"
   },
   "email": {
+    "fileName": "email.svg",
     "bg": "hsl(0 0% 92%)",
     "bg_dark": "hsl(0 0% 75%)"
   },
   "esmiley": {
+    "fileName": "esmiley.svg",
     "bg": "hsl(200 100% 87.8%)",
-    "bg_dark": "hsl(200 80% 15.600000000000001%)"
+    "bg_dark": "hsl(200 80% 15%)"
   },
   "excel": {
+    "fileName": "excel.svg",
     "bg": "hsl(152 58% 89.6%)",
-    "bg_dark": "hsl(152 46.400000000000006% 19.200000000000003%)"
+    "bg_dark": "hsl(152 46% 19%)"
   },
   "facebook-ads": {
+    "fileName": "facebook-ads.svg",
     "bg": "hsl(208 86% 94.8%)",
     "bg_dark": "hsl(208 68.8% 29.6%)"
   },
   "facebook-conversions": {
+    "fileName": "facebook-conversions.svg",
     "bg": "hsl(208 86% 94.8%)",
     "bg_dark": "hsl(208 68.8% 29.6%)"
   },
   "firebase": {
+    "fileName": "firebase.svg",
     "bg": "hsl(44 96% 92%)",
     "bg_dark": "hsl(44 100% 21%)"
   },
   "forex": {
+    "fileName": "forex.svg",
     "bg": "hsl(0 0% 92%)",
     "bg_dark": "hsl(0 0% 75%)"
   },
   "forex-v2": {
+    "fileName": "forex-v2.svg",
     "bg": "hsl(0 0% 92%)",
     "bg_dark": "hsl(0 0% 75%)"
   },
   "freshchat": {
+    "fileName": "freshchat.svg",
     "bg": "hsl(137 43% 93.8%)",
     "bg_dark": "hsl(137 34.4% 27.6%)"
   },
   "freshdesk": {
+    "fileName": "freshdesk.svg",
     "bg": "hsl(148 55% 94.4%)",
     "bg_dark": "hsl(148 44% 28.8%)"
   },
   "freshsales": {
+    "fileName": "freshsales.svg",
     "bg": "hsl(30 80% 95%)",
     "bg_dark": "hsl(30 64% 30%)"
   },
   "freshservice": {
+    "fileName": "freshservice.svg",
     "bg": "hsl(192 96% 90%)",
-    "bg_dark": "hsl(192 76.80000000000001% 20%)"
+    "bg_dark": "hsl(192 76% 20%)"
   },
   "ftp": {
+    "fileName": "ftp.svg",
     "bg": "hsl(0 0% 92%)",
     "bg_dark": "hsl(0 0% 75%)"
   },
   "ftp__csv": {
+    "fileName": "ftp__csv.svg",
     "bg": "hsl(0 0% 92%)",
     "bg_dark": "hsl(0 0% 75%)"
   },
   "google-ads": {
+    "fileName": "google-ads.svg",
     "bg": "hsl(218 100% 90%)",
     "bg_dark": "hsl(218 67% 28%)"
   },
   "google-analytics": {
+    "fileName": "google-analytics.svg",
     "bg": "hsl(41 100% 89.6%)",
-    "bg_dark": "hsl(41 80% 19.200000000000003%)"
+    "bg_dark": "hsl(41 80% 19%)"
   },
   "google-analytics-4": {
+    "fileName": "google-analytics-4.svg",
     "bg": "hsl(41 100% 89.6%)",
-    "bg_dark": "hsl(41 80% 19.200000000000003%)"
+    "bg_dark": "hsl(41 80% 19%)"
   },
   "google-cloud-storage": {
+    "fileName": "google-cloud-storage.svg",
     "bg": "hsl(217 91% 92.2%)",
-    "bg_dark": "hsl(217 72.8% 24.400000000000002%)"
+    "bg_dark": "hsl(217 72.8% 24%)"
   },
   "google-drive": {
+    "fileName": "google-drive.svg",
     "bg": "hsl(218 100% 90%)",
     "bg_dark": "hsl(218 67% 28%)"
   },
   "google-drive__csv": {
+    "fileName": "google-drive__csv.svg",
     "bg": "hsl(0 0% 92%)",
     "bg_dark": "hsl(0 0% 75%)"
   },
   "google-drive__excel": {
+    "fileName": "google-drive__excel.svg",
     "bg": "hsl(150 39% 93.6%)",
     "bg_dark": "hsl(150 31% 27%)"
   },
   "google-search-console": {
+    "fileName": "google-search-console.svg",
     "bg": "hsl(217 89% 92%)",
     "bg_dark": "hsl(217 71.2% 24%)"
   },
   "google-sheets": {
+    "fileName": "google-sheets.svg",
     "bg": "hsl(150 39% 93.6%)",
     "bg_dark": "hsl(150 31% 27%)"
   },
   "google-sheets-service-account": {
+    "fileName": "google-sheets-service-account.svg",
     "bg": "hsl(150 39% 93.6%)",
     "bg_dark": "hsl(150 31% 27%)"
   },
   "google-video": {
+    "fileName": "google-video.svg",
     "bg": "hsl(150 39% 93.6%)",
     "bg_dark": "hsl(150 31% 27%)"
   },
   "gorgias": {
+    "fileName": "gorgias.svg",
     "bg": "hsl(0 0% 92%)",
     "bg_dark": "hsl(0 0% 3.2%)"
   },
   "hairtools": {
+    "fileName": "hairtools.svg",
     "bg": "hsl(0 0% 92%)",
     "bg_dark": "hsl(0 0% 75%)"
   },
   "harvest": {
+    "fileName": "harvest.svg",
     "bg": "hsl(22 96% 94.8%)",
-    "bg_dark": "hsl(22 76.80000000000001% 29.6%)"
+    "bg_dark": "hsl(22 76% 29.6%)"
   },
   "heapsgo": {
+    "fileName": "heapsgo.svg",
     "bg": "hsl(252 100% 92%)",
     "bg_dark": "hsl(252 54% 34%)"
   },
   "heroku-postgres": {
+    "fileName": "heroku-postgres.svg",
     "bg": "hsl(206 29% 93.8%)",
-    "bg_dark": "hsl(206 23.200000000000003% 27.6%)"
+    "bg_dark": "hsl(206 23% 27.6%)"
   },
   "hubspot": {
+    "fileName": "hubspot.svg",
     "bg": "hsl(11 100% 93%)",
     "bg_dark": "hsl(11 39% 30%)"
   },
   "hubspot-v2": {
+    "fileName": "hubspot-v2.svg",
     "bg": "hsl(11 100% 93%)",
     "bg_dark": "hsl(11 39% 30%)"
   },
   "instagram-business": {
+    "fileName": "instagram-business.svg",
     "bg": "hsl(312 100% 90%)",
     "bg_dark": "hsl(312 28% 25%)"
   },
   "intercom": {
+    "fileName": "intercom.svg",
     "bg": "hsl(207 85% 90.4%)",
     "bg_dark": "hsl(207 68% 20.8%)"
   },
   "invision-community": {
+    "fileName": "invision-community.svg",
     "bg": "hsl(200 33% 89.4%)",
-    "bg_dark": "hsl(200 26.400000000000002% 18.8%)"
+    "bg_dark": "hsl(200 26% 18.8%)"
   },
   "iterable": {
+    "fileName": "iterable.svg",
     "bg": "hsl(351 84% 91%)",
     "bg_dark": "hsl(293 32% 36%)"
   },
   "jetpack": {
+    "fileName": "jetpack.svg",
     "bg": "hsl(120 43% 93%)",
     "bg_dark": "hsl(120 34.4% 26%)"
   },
   "joomla": {
+    "fileName": "joomla.png",
     "bg": "hsl(32 93% 92.2%)",
-    "bg_dark": "hsl(32 74.4% 24.400000000000002%)"
+    "bg_dark": "hsl(32 74.4% 24%)"
   },
   "klaviyo": {
+    "fileName": "klaviyo.svg",
     "bg": "hsl(52 93% 90.8%)",
     "bg_dark": "hsl(52 74.4% 21.6%)"
   },
   "linkedin-ads": {
+    "fileName": "linkedin-ads.svg",
     "bg": "hsl(210 90% 88%)",
     "bg_dark": "hsl(210 72% 16%)"
   },
   "loaded-commerce": {
+    "fileName": "loaded-commerce.png",
     "bg": "hsl(204 57% 89.8%)",
     "bg_dark": "hsl(204 45.6% 19.6%)"
   },
   "looker": {
+    "fileName": "looker.svg",
     "bg": "hsl(217 89% 92%)",
     "bg_dark": "hsl(217 71.2% 24%)"
   },
   "magento": {
+    "fileName": "magento.svg",
     "bg": "hsl(18 88% 90.8%)",
     "bg_dark": "hsl(18 70.4% 21.6%)"
   },
   "magento-on-amazon-rds": {
+    "fileName": "magento-on-amazon-rds.svg",
     "bg": "hsl(18 88% 90.8%)",
     "bg_dark": "hsl(18 70.4% 21.6%)"
   },
   "mailchimp": {
+    "fileName": "mailchimp.svg",
     "bg": "hsl(47 100% 83%)",
     "bg_dark": "hsl(43 80% 36%)"
   },
   "mariadb": {
+    "fileName": "mariadb.svg",
     "bg": "hsl(16 44% 91%)",
     "bg_dark": "hsl(16 35.2% 22%)"
   },
   "marketo": {
+    "fileName": "marketo.svg",
     "bg": "hsl(256 40% 88%)",
     "bg_dark": "hsl(256 26% 61%)"
   },
   "medusa": {
+    "fileName": "medusa.svg",
     "bg": "hsl(0 0% 92%)",
     "bg_dark": "hsl(0 0% 75%)"
   },
   "memberpress": {
+    "fileName": "memberpress.svg",
     "bg": "hsl(206 98% 86%)",
     "bg_dark": "hsl(183 41% 31%)"
   },
   "metabase": {
+    "fileName": "metabase.svg",
     "bg": "hsl(208 72% 92%)",
     "bg_dark": "hsl(208 57.6% 24%)"
   },
   "meteor-via-mongodb": {
+    "fileName": "meteor-via-mongodb.svg",
     "bg": "hsl(13 100% 92.4%)",
     "bg_dark": "hsl(13 80% 24.8%)"
   },
   "microsoft-ads": {
+    "fileName": "microsoft-ads.svg",
     "bg": "hsl(172 100% 85%)",
     "bg_dark": "hsl(172 45% 15%)"
   },
   "microsoft-dynamics-365": {
+    "fileName": "microsoft-dynamics-365.svg",
     "bg": "hsl(0 0% 92%)",
     "bg_dark": "hsl(0 0% 75%)"
   },
   "mixpanel-destination": {
+    "fileName": "mixpanel-destination.svg",
     "bg": "hsl(254 100% 89%)",
     "bg_dark": "hsl(254 40% 40%)"
   },
   "mixpanel-source": {
+    "fileName": "mixpanel-source.svg",
     "bg": "hsl(254 100% 89%)",
     "bg_dark": "hsl(254 40% 40%)"
   },
   "mode": {
+    "fileName": "mode.svg",
     "bg": "hsl(162 88% 82.6%)",
     "bg_dark": "hsl(162 70.4% 5.2%)"
   },
   "monday": {
+    "fileName": "monday.svg",
     "bg": "hsl(47 100% 90%)",
     "bg_dark": "hsl(47 80% 20%)"
   },
   "mongodb": {
+    "fileName": "mongodb.svg",
     "bg": "hsl(145 100% 89.2%)",
-    "bg_dark": "hsl(145 80% 18.400000000000002%)"
+    "bg_dark": "hsl(145 80% 18%)"
   },
   "mongodb-sharded-cluster": {
+    "fileName": "mongodb-sharded-cluster.svg",
     "bg": "hsl(145 100% 89.2%)",
-    "bg_dark": "hsl(145 80% 18.400000000000002%)"
+    "bg_dark": "hsl(145 80% 18%)"
   },
   "monster-insights": {
+    "fileName": "monster-insights.svg",
     "bg": "hsl(157 73% 88%)",
     "bg_dark": "hsl(195 15% 23%)"
   },
   "mssql": {
+    "fileName": "mssql.svg",
     "bg": "hsl(357 70% 87.6%)",
-    "bg_dark": "hsl(357 56% 15.200000000000001%)"
+    "bg_dark": "hsl(357 56% 15%)"
   },
   "mysql": {
+    "fileName": "mysql.svg",
     "bg": "hsl(191 100% 85%)",
     "bg_dark": "hsl(191 80% 10%)"
   },
   "mysql-on-amazon-rds": {
+    "fileName": "mysql-on-amazon-rds.svg",
     "bg": "hsl(191 100% 85%)",
     "bg_dark": "hsl(191 80% 10%)"
   },
   "mysql-on-azure-database": {
+    "fileName": "mysql-on-azure-database.svg",
     "bg": "hsl(191 100% 85%)",
     "bg_dark": "hsl(191 80% 10%)"
   },
   "mysql-on-google-cloud-sql": {
+    "fileName": "mysql-on-google-cloud-sql.svg",
     "bg": "hsl(191 100% 85%)",
     "bg_dark": "hsl(191 80% 10%)"
   },
   "netsuite": {
+    "fileName": "netsuite.svg",
     "bg": "hsl(204 98% 84.4%)",
     "bg_dark": "hsl(204 78.4% 8.8%)"
   },
   "netvisor": {
+    "fileName": "netvisor.svg",
     "bg": "hsl(203 100% 89.6%)",
-    "bg_dark": "hsl(203 80% 19.200000000000003%)"
+    "bg_dark": "hsl(203 80% 19%)"
   },
   "node-bb": {
+    "fileName": "node-bb.png",
     "bg": "hsl(213 67% 88.8%)",
     "bg_dark": "hsl(213 53.6% 17.6%)"
   },
   "one_drive": {
+    "fileName": "one_drive.svg",
     "bg": "hsl(200 82% 90.6%)",
-    "bg_dark": "hsl(200 65.60000000000001% 21.200000000000003%)"
+    "bg_dark": "hsl(200 65% 21%)"
   },
   "openweather": {
+    "fileName": "openweather.svg",
     "bg": "hsl(13 80% 92%)",
     "bg_dark": "hsl(13 64% 24%)"
   },
   "os-commerce": {
+    "fileName": "os-commerce.png",
     "bg": "hsl(0 0% 89.8%)",
     "bg_dark": "hsl(0 0% 19.6%)"
   },
   "pardot": {
+    "fileName": "pardot.svg",
     "bg": "hsl(196 77% 94.2%)",
-    "bg_dark": "hsl(196 61.6% 28.400000000000002%)"
+    "bg_dark": "hsl(196 61.6% 28%)"
   },
   "pendo": {
+    "fileName": "pendo.svg",
     "bg": "hsl(350 69% 90.6%)",
-    "bg_dark": "hsl(350 55.2% 21.200000000000003%)"
+    "bg_dark": "hsl(350 55.2% 21%)"
   },
   "phoenix-via-postgresql": {
+    "fileName": "phoenix-via-postgresql.svg",
     "bg": "hsl(206 29% 93.8%)",
-    "bg_dark": "hsl(206 23.200000000000003% 27.6%)"
+    "bg_dark": "hsl(206 23% 27.6%)"
   },
   "pinterest-ads": {
+    "fileName": "pinterest-ads.svg",
     "bg": "hsl(350 100% 89%)",
     "bg_dark": "hsl(350 80% 18%)"
   },
   "pipedrive": {
+    "fileName": "pipedrive.svg",
     "bg": "hsl(147 30% 92.2%)",
-    "bg_dark": "hsl(147 24% 24.400000000000002%)"
+    "bg_dark": "hsl(147 24% 24%)"
   },
   "plausible-analytics": {
+    "fileName": "plausible-analytics.svg",
     "bg": "hsl(231 50% 92%)",
     "bg_dark": "hsl(231 40% 24%)"
   },
   "postgresql": {
+    "fileName": "postgresql.svg",
     "bg": "hsl(206 29% 93.8%)",
-    "bg_dark": "hsl(206 23.200000000000003% 27.6%)"
+    "bg_dark": "hsl(206 23% 27.6%)"
   },
   "postgresql-on-azure-database": {
+    "fileName": "postgresql-on-azure-database.svg",
     "bg": "hsl(206 29% 93.8%)",
-    "bg_dark": "hsl(206 23.200000000000003% 27.6%)"
+    "bg_dark": "hsl(206 23% 27.6%)"
   },
   "postgresql-on-google-cloud": {
+    "fileName": "postgresql-on-google-cloud.svg",
     "bg": "hsl(206 29% 93.8%)",
-    "bg_dark": "hsl(206 23.200000000000003% 27.6%)"
+    "bg_dark": "hsl(206 23% 27.6%)"
   },
   "postgresql-on-rds": {
+    "fileName": "postgresql-on-rds.svg",
     "bg": "hsl(206 29% 93.8%)",
-    "bg_dark": "hsl(206 23.200000000000003% 27.6%)"
+    "bg_dark": "hsl(206 23% 27.6%)"
   },
   "powerbi": {
+    "fileName": "powerbi.svg",
     "bg": "hsl(41 87% 89%)",
-    "bg_dark": "hsl(41 69.60000000000001% 18%)"
+    "bg_dark": "hsl(41 69% 18%)"
   },
   "presta-shop": {
+    "fileName": "presta-shop.svg",
     "bg": "hsl(331 94% 89%)",
     "bg_dark": "hsl(331 75.2% 18%)"
   },
   "quickbooks": {
+    "fileName": "quickbooks.svg",
     "bg": "hsl(112 40% 93.6%)",
-    "bg_dark": "hsl(112 32% 27.200000000000003%)"
+    "bg_dark": "hsl(112 32% 27%)"
   },
   "recharge": {
+    "fileName": "recharge.svg",
     "bg": "hsl(254 99% 89%)",
     "bg_dark": "hsl(254 96% 72%)"
   },
   "recurly": {
+    "fileName": "recurly.svg",
     "bg": "hsl(289 45% 88%)",
     "bg_dark": "hsl(289 23% 61%)"
   },
   "reddit": {
+    "fileName": "reddit.svg",
     "bg": "hsl(16 100% 94%)",
     "bg_dark": "hsl(16 75% 30%)"
   },
   "redshift": {
+    "fileName": "redshift.svg",
     "bg": "hsl(208 56% 91%)",
     "bg_dark": "hsl(208 69% 25%)"
   },
   "rotaready": {
+    "fileName": "rotaready.svg",
     "bg": "hsl(223 100% 90%)",
     "bg_dark": "hsl(223 40% 65%)"
   },
   "salesforce": {
+    "fileName": "salesforce.svg",
     "bg": "hsl(196 77% 94.2%)",
-    "bg_dark": "hsl(196 61.6% 28.400000000000002%)"
+    "bg_dark": "hsl(196 61.6% 28%)"
   },
   "salesforce-commerce-cloud": {
+    "fileName": "salesforce-commerce-cloud.svg",
     "bg": "hsl(196 77% 94.2%)",
-    "bg_dark": "hsl(196 61.6% 28.400000000000002%)"
+    "bg_dark": "hsl(196 61.6% 28%)"
   },
   "segment": {
+    "fileName": "segment.svg",
     "bg": "hsl(153 35% 90.4%)",
     "bg_dark": "hsl(153 28% 20.8%)"
   },
   "sevenrooms": {
+    "fileName": "sevenrooms.svg",
     "bg": "hsl(181 90% 88%)",
     "bg_dark": "hsl(181 72% 16%)"
   },
   "sftp": {
+    "fileName": "sftp.svg",
     "bg": "hsl(0 0% 92%)",
     "bg_dark": "hsl(0 0% 75%)"
   },
   "sftp__csv": {
+    "fileName": "sftp__csv.svg",
     "bg": "hsl(0 0% 92%)",
     "bg_dark": "hsl(0 0% 75%)"
   },
   "shopify": {
+    "fileName": "shopify.svg",
     "bg": "hsl(81 48% 95%)",
     "bg_dark": "hsl(96 24% 24%)"
   },
   "shopify-api-key": {
+    "fileName": "shopify-api-key.svg",
     "bg": "hsl(81 48% 95%)",
     "bg_dark": "hsl(96 24% 24%)"
   },
   "shopify-plus": {
+    "fileName": "shopify-plus.svg",
     "bg": "hsl(0 0% 92%)",
     "bg_dark": "hsl(0 0% 75%)"
   },
   "six-sense": {
+    "fileName": "six-sense.svg",
     "bg": "hsl(176 81% 88%)",
     "bg_dark": "hsl(176 64.8% 16%)"
   },
   "slack": {
-    "bg": "hsl(341 76% 89.8%)",
-    "bg_dark": "hsl(341 60.800000000000004% 19.6%)"
+    "fileName": "slack.svg",
+    "bg": "hsl(341 100% 96%)",
+    "bg_dark": "hsl(341 60% 19%)"
   },
   "snapchat-ads": {
+    "fileName": "snapchat-ads.svg",
     "bg": "hsl(59 100% 81%)",
     "bg_dark": "hsl(59 69% 39%)"
   },
   "snowflake": {
+    "fileName": "snowflake.svg",
     "bg": "hsl(196 80% 90.6%)",
-    "bg_dark": "hsl(196 64% 21.200000000000003%)"
+    "bg_dark": "hsl(196 64% 21%)"
   },
   "spree-commerce": {
+    "fileName": "spree-commerce.svg",
     "bg": "hsl(210 100% 88%)",
     "bg_dark": "hsl(210 67% 31%)"
   },
   "sql-server-on-rds": {
+    "fileName": "sql-server-on-rds.svg",
     "bg": "hsl(357 100% 90%)",
     "bg_dark": "hsl(357 36% 30%)"
   },
   "sqlServer": {
-    "bg": "hsl(357 70% 87%)",
+    "fileName": "sqlServer.svg",
+    "bg": "hsl(357 0% 93%)",
     "bg_dark": "hsl(357 4% 47%)"
   },
   "stripe": {
+    "fileName": "stripe.svg",
     "bg": "hsl(206 58% 94.6%)",
-    "bg_dark": "hsl(206 46.400000000000006% 29.200000000000003%)"
+    "bg_dark": "hsl(206 46% 29%)"
   },
   "supabase": {
+    "fileName": "supabase.svg",
     "bg": "hsl(153 60% 90.4%)",
     "bg_dark": "hsl(153 48% 20.8%)"
   },
   "tableau": {
+    "fileName": "tableau.svg",
     "bg": "hsl(23 80% 90%)",
     "bg_dark": "hsl(23 27% 27%)"
   },
   "tapfiliate": {
+    "fileName": "tapfiliate.svg",
     "bg": "hsl(195 100% 91%)",
     "bg_dark": "hsl(228 72% 39%)"
   },
   "tiktok-ads": {
+    "fileName": "tiktok-ads.svg",
     "bg": "hsl(341 100% 93%)",
     "bg_dark": "hsl(7 36% 63%)"
   },
   "typeform": {
+    "fileName": "typeform.svg",
     "bg": "hsl(0 0% 92%)",
     "bg_dark": "hsl(0 0% 65%)"
   },
   "typo-three": {
+    "fileName": "typo-three.svg",
     "bg": "hsl(31 100% 90%)",
     "bg_dark": "hsl(31 80% 20%)"
   },
   "vitally": {
+    "fileName": "vitally.svg",
     "bg": "hsl(212 97% 93%)",
-    "bg_dark": "hsl(212 77.60000000000001% 26%)"
+    "bg_dark": "hsl(212 77% 26%)"
   },
   "weld-bigquery": {
+    "fileName": "weld-bigquery.svg",
     "bg": "hsl(218 94% 92%)",
     "bg_dark": "hsl(218 56% 34%)"
   },
   "woocommerce": {
+    "fileName": "woocommerce.svg",
     "bg": "hsl(266 38% 95%)",
-    "bg_dark": "hsl(266 30.400000000000002% 30%)"
+    "bg_dark": "hsl(266 30% 30%)"
   },
   "wordfence-security": {
+    "fileName": "wordfence-security.svg",
     "bg": "hsl(197 100% 86%)",
     "bg_dark": "hsl(197 80% 12%)"
   },
   "wordpress": {
+    "fileName": "wordpress.svg",
     "bg": "hsl(204 94% 87.8%)",
-    "bg_dark": "hsl(204 75.2% 15.600000000000001%)"
+    "bg_dark": "hsl(204 75.2% 15%)"
   },
   "workday": {
+    "fileName": "workday.svg",
     "bg": "hsl(34 100% 89%)",
     "bg_dark": "hsl(211 33% 26%)"
   },
   "xAds": {
+    "fileName": "xAds.svg",
     "bg": "hsl(0 0% 92%)",
     "bg_dark": "hsl(0 0% 75%)"
   },
   "xero": {
+    "fileName": "xero.svg",
     "bg": "hsl(194 83% 96%)",
     "bg_dark": "hsl(194 66.4% 32%)"
   },
   "yoast-seo": {
+    "fileName": "yoast-seo.svg",
     "bg": "hsl(330 43% 77%)",
     "bg_dark": "hsl(335 37% 55%)"
   },
   "youtube-analytics": {
+    "fileName": "youtube-analytics.svg",
     "bg": "hsl(0 100% 94%)",
     "bg_dark": "hsl(0 94% 80%)"
   },
   "zendesk": {
+    "fileName": "zendesk.svg",
     "bg": "hsl(218 100% 95%)",
     "bg_dark": "hsl(184 28% 45%)"
   }

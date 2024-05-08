@@ -6,12 +6,14 @@ import { FinalColor } from "extract-colors/lib/types/Color.js";
 import getPixels from "get-pixels";
 import svg2img, { svg2imgOptions } from "svg2img";
 
-import { blendHSLColorWithAlpha } from "@/app/util/colors";
+import { blendHSLColorWithAlpha, formatHSL } from "@/app/util/colors";
 
 const configFilePath = path.join(process.cwd(), "logos/config.json");
 const integrationsPath = path.join(process.cwd(), "logos/integrations");
 
 type HSLColor = { h: number; s: number; l: number };
+
+const imageExtensions = [".svg", ".png"];
 
 function resolveIntegrationsFromDir() {
   const integrations = fs
@@ -22,15 +24,15 @@ function resolveIntegrationsFromDir() {
       if (stat.isDirectory()) {
         files = fs
           .readdirSync(path.join(integrationsPath, x))
-          .filter((x) => x.startsWith("icon."));
+          .filter((x) => imageExtensions.includes(path.extname(x)));
       }
       return {
         integrationId: x,
-        isDirectory: stat.isDirectory(),
+        fileName: files[0],
         files,
       };
     })
-    .filter((x) => x.isDirectory && x.files.length > 0);
+    .filter((x) => x.fileName !== undefined);
   return integrations;
 }
 
@@ -80,8 +82,12 @@ async function run() {
   const currentIntegrations = resolveIntegrationsFromDir();
   const previousConfig = (await import(configFilePath)).default;
 
-  const newConfig: { integrationId: string; bg: string; bg_dark: string }[] =
-    [];
+  const newConfig: {
+    integrationId: string;
+    fileName: string;
+    bg: string;
+    bg_dark: string;
+  }[] = [];
 
   const newIntegrationIds: typeof currentIntegrations = [];
   currentIntegrations.forEach((item) => {
@@ -89,6 +95,7 @@ async function run() {
       // Reuse config for existing integrations
       newConfig.push({
         integrationId: item.integrationId,
+        fileName: item.fileName,
         bg: previousConfig[item.integrationId as keyof typeof previousConfig]
           .bg,
         bg_dark:
@@ -107,7 +114,7 @@ async function run() {
           process.cwd(),
           "logos/integrations",
           item.integrationId,
-          item.files[0]
+          item.fileName
         );
 
         if (imagePath.endsWith(".svg")) {
@@ -145,6 +152,7 @@ async function run() {
 
     newConfig.push({
       integrationId: newIntegration.integrationId,
+      fileName: newIntegration.fileName,
       bg: `hsl(${bg_light.h} ${bg_light.s}% ${bg_light.l}%)`,
       bg_dark: `hsl(${bg_dark.h} ${bg_dark.s}% ${bg_dark.l}%)`,
     });
@@ -154,11 +162,12 @@ async function run() {
     .sort((a, b) => a.integrationId.localeCompare(b.integrationId))
     .reduce((acc, item) => {
       acc[item.integrationId] = {
+        fileName: item.fileName,
         bg: item.bg,
         bg_dark: item.bg_dark,
       };
       return acc;
-    }, {} as { [key: string]: { bg: string; bg_dark: string } });
+    }, {} as { [key: string]: { bg: string; bg_dark: string; fileName: string } });
 
   fs.writeFileSync(configFilePath, JSON.stringify(obj, null, 2));
 }

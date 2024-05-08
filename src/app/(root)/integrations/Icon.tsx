@@ -7,7 +7,7 @@ import { useDebouncedCallback } from "use-debounce";
 
 import IconWithBG from "@/app/components/icon/IconWithBG";
 import cn from "@/app/util/cn";
-import { formatHSLA, rgbToHsl } from "@/app/util/colors";
+import { formatHSL, rgbToHsl } from "@/app/util/colors";
 import {
   Popover,
   PopoverContent,
@@ -54,7 +54,7 @@ export function Icon(
             ref={ref}
             {...restProps}
             icon={<img src={config.url} alt={config.url} />}
-            color={backgroundColor ? formatHSLA(backgroundColor) : undefined}
+            color={backgroundColor ? formatHSL(backgroundColor) : undefined}
             size={props.size}
           />
         </PopoverTrigger>
@@ -147,7 +147,7 @@ function ConfigureIntegration(props: {
               <IconWithBG
                 icon={<img src={props.config.url} alt={props.config.url} />}
                 color={
-                  colorConfig.light ? formatHSLA(colorConfig.light) : undefined
+                  colorConfig.light ? formatHSL(colorConfig.light) : undefined
                 }
                 size="xl"
               />
@@ -174,7 +174,7 @@ function ConfigureIntegration(props: {
               <IconWithBG
                 icon={<img src={props.config.url} alt={props.config.url} />}
                 color={
-                  colorConfig.dark ? formatHSLA(colorConfig.dark) : undefined
+                  colorConfig.dark ? formatHSL(colorConfig.dark) : undefined
                 }
                 size="xl"
               />

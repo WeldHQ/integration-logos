@@ -4,7 +4,7 @@ export interface HSLColor {
   l: number;
 }
 
-export function formatHSLA(color: HSLColor) {
+export function formatHSL(color: HSLColor) {
   return `hsl(${Math.floor(color.h)} ${Math.floor(color.s * 100)}% ${Math.floor(
     color.l * 100
   )}%)`;

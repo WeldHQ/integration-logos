@@ -5,6 +5,8 @@ import stream, { Readable } from "stream";
 import { NextApiRequest, NextApiResponse } from "next";
 import { NextRequest, NextResponse } from "next/server";
 
+import config from "@/../logos/config.json";
+
 const corsHeaders = {
   "Access-Control-Allow-Origin": "*",
   "Access-Control-Allow-Methods": "GET, OPTIONS",
@@ -33,16 +35,11 @@ export default async function getImage(
   }
 
   const integrationsFolder = "/logos/integrations";
-  const iconFiles = fs
-    .readdirSync(path.join(process.cwd(), integrationsFolder, integrationId))
-    .filter((x) => x.startsWith("icon."));
-
-  const iconFile = iconFiles[0];
   const filePath = path.join(
     process.cwd(),
     integrationsFolder,
     integrationId,
-    iconFile
+    config[integrationId as keyof typeof config].fileName
   );
 
   const ext = path.extname(filePath);
