@@ -275,6 +275,12 @@
     "bg": "hsl(208 86% 94.8%)",
     "bg_dark": "hsl(208 68.8% 29.6%)"
   },
+  "facebook-offline-conversions": {
+    "fileName": "facebook.svg",
+    "fileType": ".svg",
+    "bg": "hsl(208 86% 94.8%)",
+    "bg_dark": "hsl(208 68.8% 29.6%)"
+  },
   "firebase": {
     "fileName": "firebase.svg",
     "fileType": ".svg",
