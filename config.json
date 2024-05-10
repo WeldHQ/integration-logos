@@ -204,8 +204,8 @@
     "bg_dark": "hsl(80 83% 18%)"
   },
   "dandomain-webshop": {
-    "fileName": "dandomain-webshop.png",
-    "fileType": ".png",
+    "fileName": "dan-domain.svg",
+    "fileType": ".svg",
     "bg": "hsl(30 100% 89%)",
     "bg_dark": "hsl(30 80% 18%)"
   },
@@ -474,8 +474,8 @@
     "bg_dark": "hsl(120 34.4% 26%)"
   },
   "joomla": {
-    "fileName": "joomla.png",
-    "fileType": ".png",
+    "fileName": "joomla.svg",
+    "fileType": ".svg",
     "bg": "hsl(32 93% 92.2%)",
     "bg_dark": "hsl(32 74.4% 24%)"
   },
@@ -492,8 +492,8 @@
     "bg_dark": "hsl(210 72% 16%)"
   },
   "loaded-commerce": {
-    "fileName": "loaded-commerce.png",
-    "fileType": ".png",
+    "fileName": "loaded-commerce.svg",
+    "fileType": ".svg",
     "bg": "hsl(204 57% 89.8%)",
     "bg_dark": "hsl(204 45.6% 19.6%)"
   },
@@ -654,8 +654,8 @@
     "bg_dark": "hsl(203 80% 19%)"
   },
   "node-bb": {
-    "fileName": "node-bb.png",
-    "fileType": ".png",
+    "fileName": "bb.svg",
+    "fileType": ".svg",
     "bg": "hsl(213 67% 88.8%)",
     "bg_dark": "hsl(213 53.6% 17.6%)"
   },
@@ -672,8 +672,8 @@
     "bg_dark": "hsl(13 64% 24%)"
   },
   "os-commerce": {
-    "fileName": "os-commerce.png",
-    "fileType": ".png",
+    "fileName": "os-commerce.svg",
+    "fileType": ".svg",
     "bg": "hsl(0 0% 89.8%)",
     "bg_dark": "hsl(0 0% 19.6%)"
   },

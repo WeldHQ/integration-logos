@@ -25,15 +25,16 @@ function IntegrationIcon(props: { id: string }) {
   const { id } = props;
   const c = config[id as keyof typeof config];
   try {
-    const logo = require(`@weld/integration-logos/integrations/${id}/${c.fileName}`);
-    return (
-      <Image
-        src={logo.default}
-        alt={id}
-        className="w-8 h-8 p-2 rounded"
-        style={{ backgroundColor: c.bg }}
-      />
-    );
+    const logo = require(`@weld/integration-logos/${id}${c.fileType}`);
+    console.log(`@weld/integration-logos/${id}${c.fileType}`, logo);
+    // return (
+    //   <Image
+    //     src={logo.default}
+    //     alt={id}
+    //     className="w-8 h-8 p-2 rounded"
+    //     style={{ backgroundColor: c.bg }}
+    //   />
+    // );
   } catch (error) {
     console.error({ id, error });
   }
