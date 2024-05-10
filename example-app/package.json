@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@weld/integration-logos": "github:WeldHQ/integration-logos.git#semver:0.0.26",
+    "@weld/integration-logos": "github:WeldHQ/integration-logos.git#semver:0.0.27",
     "react": "^18",
     "react-dom": "^18",
     "next": "14.2.3"

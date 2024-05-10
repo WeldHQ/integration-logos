@@ -9,6 +9,12 @@
     "config.json"
   ],
   "exports": {
+    ".": {
+      "types": "./build/types/index.d.ts",
+      "require": "./build/cjs/index.js",
+      "import": "./build/esm/index.js",
+      "default": "./build/esm/index.js"
+    },
     "./*.svg": "./build/*.svg",
     "./*.png": "./build/*.png",
     "./*": {
