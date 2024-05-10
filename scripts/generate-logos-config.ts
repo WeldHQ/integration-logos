@@ -6,10 +6,8 @@ import { FinalColor } from "extract-colors/lib/types/Color.js";
 import getPixels from "get-pixels";
 import svg2img, { svg2imgOptions } from "svg2img";
 
-import { blendHSLColorWithAlpha, formatHSL } from "@/app/util/colors";
-
-const configFilePath = path.join(process.cwd(), "logos/config.json");
-const integrationsPath = path.join(process.cwd(), "logos/integrations");
+const configFilePath = path.join(process.cwd(), "config.json");
+const integrationsPath = path.join(process.cwd(), "integrations");
 
 type HSLColor = { h: number; s: number; l: number };
 
@@ -78,6 +76,52 @@ function normalizeHSLColor(color: FinalColor): HSLColor {
   };
 }
 
+export function parseHSLA(colorString: string): HSLColor | null {
+  // Regular expression to match the components of the HSLA color string
+  const regex =
+    /hsla?\(\s*([0-9.]+)\s+([0-9.]+)%\s+([0-9.]+)%(\s*\/\s*([0-9.]+))?\s*\)/;
+  const match = colorString.match(regex);
+
+  if (!match) {
+    // If the string doesn't match the expected format, return null or handle the error accordingly
+    return null;
+  }
+
+  // Extract the components and convert them into usable format
+  const hue = parseFloat(match[1]);
+  const saturation = parseFloat(match[2]) / 100;
+  const lightness = parseFloat(match[3]) / 100;
+
+  return {
+    h: hue,
+    s: saturation,
+    l: lightness,
+  };
+}
+
+export function blendHSLColorWithAlpha(
+  hslColor: { h: number; s: number; l: number },
+  alpha: number
+) {
+  let colorObj: { h: number; s: number; l: number } = { h: 0, s: 0, l: 0 };
+  if (typeof hslColor === "string") {
+    const parsedColor = parseHSLA(hslColor);
+    if (!parsedColor) {
+      return hslColor;
+    }
+    colorObj = parsedColor;
+  } else {
+    colorObj = hslColor;
+  }
+  // Blend color with white background
+  const blendedLightness = alpha * colorObj.l + (1 - alpha) * 100;
+  return {
+    h: colorObj.h,
+    s: colorObj.s,
+    l: blendedLightness,
+  };
+}
+
 async function run() {
   const currentIntegrations = resolveIntegrationsFromDir();
   const previousConfig = (await import(configFilePath)).default;
@@ -113,8 +157,7 @@ async function run() {
     return new Promise<typeof item & { color: HSLColor }>(
       async (resolve, reject) => {
         const imagePath = path.join(
-          process.cwd(),
-          "logos/integrations",
+          integrationsPath,
           item.integrationId,
           item.fileName
         );

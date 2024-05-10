@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 
-import config from "@/../logos/config.json";
+import config from "../config.json";
 
 const imagesFolder = path.join(process.cwd(), process.argv[2]);
 const distFolder = path.join(process.cwd(), process.argv[3]);
