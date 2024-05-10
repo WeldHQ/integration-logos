@@ -5,20 +5,24 @@
   "module": "./build/esm/index.js",
   "types": "./build/types/index.d.ts",
   "files": [
-    "./build/cjs/config.json",
-    "./build/cjs/index.js",
-    "./build/esm/config.json",
-    "./build/esm/index.js",
-    "./build/types/index.d.ts",
-    "./integrations",
-    "./config.json"
+    "build",
+    "config.json"
   ],
+  "exports": {
+    ".": {
+      "import": "./build/esm/index.js",
+      "require": "./build/cjs/index.js"
+    },
+    "./*.svg": "./build/*.svg",
+    "./*.png": "./build/*.png"
+  },
   "scripts": {
     "prepare": "npm run build",
     "compile": "tsc -b ./tsconfig.cjs.json ./tsconfig.esm.json ./tsconfig.types.json",
     "build:config": "tsx ./scripts/generate-logos-config.ts",
     "build:clean": "rm -rf ./build",
-    "build": "npm-run-all build:clean build:config compile",
+    "build": "npm-run-all build:clean build:config compile copy-image-files",
+    "copy-image-files": "tsx ./scripts/flat-copy-image-files.ts ./integrations ./build",
     "dev": "cd configurator && npm run dev"
   },
   "dependencies": {
