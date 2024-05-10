@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import sdf from "@weld/integration-logos";
+import sdf from "@weld/integration-logos/package.json";
 
 export default function Home() {
   return (
