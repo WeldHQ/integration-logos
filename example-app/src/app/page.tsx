@@ -6,9 +6,15 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center p-24">
       <div className="flex gap-4 flex-wrap">
-        {Object.keys(config).map((id) => (
-          <IntegrationIcon key={id} id={id} />
-        ))}
+        <Image
+          src={require("@weld/integration-logos/activecampaign.svg").default}
+          alt="asd"
+          width={100}
+          height={100}
+        />
+        {/* {Object.keys(config).map((id) => (
+          <IntegrationIcon key={id} id={id as keyof typeof config} />
+        ))} */}
       </div>
 
       <div className="my-10">
@@ -21,22 +27,10 @@ export default function Home() {
   );
 }
 
-function IntegrationIcon(props: { id: string }) {
-  const { id } = props;
-  const c = config[id as keyof typeof config];
-  try {
-    const logo = require(`@weld/integration-logos/${id}${c.fileType}`);
-    console.log(`@weld/integration-logos/${id}${c.fileType}`, logo);
-    // return (
-    //   <Image
-    //     src={logo.default}
-    //     alt={id}
-    //     className="w-8 h-8 p-2 rounded"
-    //     style={{ backgroundColor: c.bg }}
-    //   />
-    // );
-  } catch (error) {
-    console.error({ id, error });
-  }
-  return null;
-}
+// function IntegrationIcon(
+//   props: { id: keyof typeof config } & ComponentProps<"svg">
+// ) {
+//   const foo = use(import("@weld/integration-logos/" + props.id + ".svg"));
+//   // return <Svg {...props} />;
+//   return null;
+// }
