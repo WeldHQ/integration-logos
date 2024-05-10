@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import config from "@weld/integration-logos/build/esm/config.json";
+import config from "@weld/integration-logos";
 
 export default function Home() {
   return (
