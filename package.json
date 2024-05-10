@@ -15,14 +15,8 @@
       "import": "./build/esm/index.js",
       "default": "./build/esm/index.js"
     },
-    "./*.svg": "./build/*.svg",
-    "./*.png": "./build/*.png",
-    "./*": {
-      "types": "./build/types/*.d.ts",
-      "require": "./build/cjs/*.js",
-      "import": "./build/esm/*.js",
-      "default": "./build/esm/*.js"
-    }
+    "./*.svg": "./build/logos/*.svg",
+    "./*.png": "./build/logos/*.png"
   },
   "scripts": {
     "prepare": "npm run build",
@@ -30,7 +24,7 @@
     "build:config": "tsx ./scripts/generate-logos-config.ts",
     "build:clean": "rm -rf ./build",
     "build": "npm-run-all build:clean build:config compile copy-image-files",
-    "copy-image-files": "tsx ./scripts/flat-copy-image-files.ts ./integrations ./build",
+    "copy-image-files": "tsx ./scripts/flat-copy-image-files.ts ./integrations ./build/logos",
     "dev": "cd configurator && npm run dev"
   },
   "dependencies": {
