@@ -405,7 +405,7 @@
     "fileName": "gorgias.svg",
     "fileType": ".svg",
     "bg": "hsl(0 0% 92%)",
-    "bg_dark": "hsl(0 0% 3.2%)"
+    "bg_dark": "hsl(0 0% 75%)"
   },
   "hairtools": {
     "fileName": "hairtools.svg",
