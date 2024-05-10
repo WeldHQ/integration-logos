@@ -9,12 +9,14 @@
     "config.json"
   ],
   "exports": {
-    ".": {
-      "import": "./build/esm/index.js",
-      "require": "./build/cjs/index.js"
-    },
     "./*.svg": "./build/*.svg",
-    "./*.png": "./build/*.png"
+    "./*.png": "./build/*.png",
+    "./*": {
+      "types": "./build/types/*.d.ts",
+      "require": "./build/cjs/*.js",
+      "import": "./build/esm/*.js",
+      "default": "./build/esm/*.js"
+    }
   },
   "scripts": {
     "prepare": "npm run build",
