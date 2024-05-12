@@ -191,16 +191,12 @@ async function run() {
       0.2
     );
 
-    const bg_dark = firstColor;
-    bg_dark.l *= 0.4;
-    bg_dark.s *= 0.8;
-
     newConfig.push({
       integrationId: newIntegration.integrationId,
       fileName: newIntegration.fileName,
       fileType: path.extname(newIntegration.fileName),
       bg: `hsl(${bg_light.h} ${bg_light.s}% ${bg_light.l}%)`,
-      bg_dark: `hsl(${bg_dark.h} ${bg_dark.s}% ${bg_dark.l}%)`,
+      bg_dark: `hsl(${bg_light.h} ${bg_light.s}% ${bg_light.l}% / 0.1)`,
     });
   }
 

@@ -12,9 +12,6 @@ export default function Home() {
           width={100}
           height={100}
         />
-        {/* {Object.keys(config).map((id) => (
-          <IntegrationIcon key={id} id={id as keyof typeof config} />
-        ))} */}
       </div>
 
       <div className="my-10">
@@ -26,11 +23,3 @@ export default function Home() {
     </main>
   );
 }
-
-// function IntegrationIcon(
-//   props: { id: keyof typeof config } & ComponentProps<"svg">
-// ) {
-//   const foo = use(import("@weld/integration-logos/" + props.id + ".svg"));
-//   // return <Svg {...props} />;
-//   return null;
-// }

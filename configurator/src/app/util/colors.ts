@@ -2,12 +2,13 @@ export interface HSLColor {
   h: number;
   s: number;
   l: number;
+  a?: number;
 }
 
 export function formatHSL(color: HSLColor) {
   return `hsl(${Math.floor(color.h)} ${Math.floor(color.s * 100)}% ${Math.floor(
     color.l * 100
-  )}%)`;
+  )}%${color.a ? ` / ${color.a}` : ""})`;
 }
 
 export function parseHSLA(colorString: string): HSLColor | null {
@@ -25,11 +26,12 @@ export function parseHSLA(colorString: string): HSLColor | null {
   const hue = parseFloat(match[1]);
   const saturation = parseFloat(match[2]) / 100;
   const lightness = parseFloat(match[3]) / 100;
-
+  const alpha = match[5] ? parseFloat(match[5]) : 1;
   return {
     h: hue,
     s: saturation,
     l: lightness,
+    a: alpha,
   };
 }
 
