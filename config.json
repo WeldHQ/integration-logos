@@ -296,8 +296,8 @@
   "forex-v2": {
     "fileName": "forex-v2.svg",
     "fileType": ".svg",
-    "bg": "hsl(0 0% 92% / 1)",
-    "bg_dark": "hsl(0 16% 51%)"
+    "bg": "hsl(0 100% 92%)",
+    "bg_dark": "hsl(0 16% 51% / 1)"
   },
   "freshchat": {
     "fileName": "freshchat.svg",
@@ -446,7 +446,7 @@
   "instagram-business": {
     "fileName": "instagram-business.svg",
     "fileType": ".svg",
-    "bg": "hsl(312 100% 90%)",
+    "bg": "hsl(312 81% 93%)",
     "bg_dark": "hsl(312 100% 90% / 0.1)"
   },
   "intercom": {
