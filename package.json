@@ -15,8 +15,7 @@
       "import": "./build/esm/index.js",
       "default": "./build/esm/index.js"
     },
-    "./*.svg": "./build/logos/*.svg",
-    "./*.png": "./build/logos/*.png"
+    "./*": "./build/logos/*"
   },
   "scripts": {
     "prepare": "npm run build",
