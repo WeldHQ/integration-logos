@@ -20,8 +20,8 @@
   "amazon-ads": {
     "fileName": "amazon-ads.svg",
     "fileType": ".svg",
-    "bg": "hsl(36 100% 90% / 1)",
-    "bg_dark": "hsl(37 30% 36%)"
+    "bg": "hsl(36 100% 90%)",
+    "bg_dark": "hsl(36 100% 90% / 0.1)"
   },
   "amazon-aurora-mysql": {
     "fileName": "amazon-aurora-mysql.svg",
@@ -45,7 +45,7 @@
     "fileName": "amazon-selling-api.svg",
     "fileType": ".svg",
     "bg": "hsl(36 100% 90%)",
-    "bg_dark": "hsl(37 30% 36%)"
+    "bg_dark": "hsl(36 100% 90% / 0.1)"
   },
   "amazon-selling-api-oauth": {
     "fileName": "amazon-selling-api-oauth.svg",
@@ -806,8 +806,8 @@
   "sevenrooms": {
     "fileName": "sevenrooms.svg",
     "fileType": ".svg",
-    "bg": "hsl(181 90% 88%)",
-    "bg_dark": "hsl(181 90% 88% / 0.1)"
+    "bg": "hsl(183 50% 85%)",
+    "bg_dark": "hsl(181 24% 33%)"
   },
   "sftp": {
     "fileName": "sftp.svg",
@@ -987,6 +987,6 @@
     "fileName": "zendesk.svg",
     "fileType": ".svg",
     "bg": "hsl(218 100% 95% / 1)",
-    "bg_dark": "hsl(218 12% 48%)"
+    "bg_dark": "hsl(188 70% 74% / 0.5)"
   }
 }
