@@ -1,6 +1,6 @@
 {
     "activecampaign": {
-        "fileName": "activecampaign 2.svg",
+        "fileName": "activecampaign.svg",
         "fileType": ".svg",
         "bg": "hsl(222 77% 91%)",
         "bg_dark": "hsl(222 77% 91% / 0.1)"
@@ -749,12 +749,6 @@
         "bg": "hsl(331 94% 89%)",
         "bg_dark": "hsl(331 94% 89% / 0.1)"
     },
-    "qualtrics": {
-        "fileName": "qualtrics.svg",
-        "fileType": ".svg",
-        "bg": "hsl(254 78% 90.2%)",
-        "bg_dark": "hsl(254 78% 90.2% / 0.1)"
-    },
     "quickbooks": {
         "fileName": "quickbooks.svg",
         "fileType": ".svg",
@@ -993,6 +987,6 @@
         "fileName": "zendesk.svg",
         "fileType": ".svg",
         "bg": "hsl(218 100% 95% / 1)",
-        "bg_dark": "hsl(218 12% 48%)"
+        "bg_dark": "hsl(188 70% 74% / 0.5)"
     }
 }
