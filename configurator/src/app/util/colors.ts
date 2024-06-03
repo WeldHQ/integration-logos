@@ -1,17 +1,17 @@
-export interface HSLColor {
+export interface HSLAColor {
   h: number;
   s: number;
   l: number;
-  a?: number;
+  a: number;
 }
 
-export function formatHSL(color: HSLColor) {
+export function formatHSL(color: HSLAColor) {
   return `hsl(${Math.floor(color.h)} ${Math.floor(color.s * 100)}% ${Math.floor(
     color.l * 100
   )}%${color.a ? ` / ${color.a}` : ""})`;
 }
 
-export function parseHSLA(colorString: string): HSLColor | null {
+export function parseHSLA(colorString: string): HSLAColor | null {
   // Regular expression to match the components of the HSLA color string
   const regex =
     /hsla?\(\s*([0-9.]+)\s+([0-9.]+)%\s+([0-9.]+)%(\s*\/\s*([0-9.]+))?\s*\)/;

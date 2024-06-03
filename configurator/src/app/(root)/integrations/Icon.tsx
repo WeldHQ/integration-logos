@@ -2,7 +2,7 @@
 
 import { useTheme } from "next-themes";
 import { ComponentProps, useEffect, useRef, useState } from "react";
-import { HslColor, HslColorPicker } from "react-colorful";
+import { HslColorPicker, HslaColor, HslaColorPicker } from "react-colorful";
 import { useDebouncedCallback } from "use-debounce";
 
 import IconWithBG from "@/app/components/icon/IconWithBG";
@@ -32,11 +32,11 @@ export function Icon(
       size: number;
       type: string;
       bg: {
-        light: HslColor | null;
-        dark: HslColor | null;
+        light: HslaColor | null;
+        dark: HslaColor | null;
       };
     };
-    onColorChange?: (config: { light: HslColor; dark: HslColor }) => void;
+    onColorChange?: (config: { light: HslaColor; dark: HslaColor }) => void;
   } & Pick<Partial<ComponentProps<typeof IconWithBG>>, "size">
 ) {
   const { id, config, onColorChange, ...restProps } = props;
@@ -103,11 +103,11 @@ function ConfigureIntegration(props: {
     size: number;
     type: string;
     bg: {
-      light: HslColor | null;
-      dark: HslColor | null;
+      light: HslaColor | null;
+      dark: HslaColor | null;
     };
   };
-  onSelectColor: (config: { light: HslColor; dark: HslColor }) => void;
+  onSelectColor: (config: { light: HslaColor; dark: HslaColor }) => void;
 }) {
   const [palette, setPalette] = useState<number[][]>([]);
   const [colorConfig, setColorConfig] = useState(props.config.bg);
@@ -201,14 +201,14 @@ function ConfigureIntegration(props: {
 }
 
 function ConfigureColorMode(props: {
-  color: HslColor | null;
+  color: HslaColor | null;
   palette: number[][];
-  onSelectColor: (color: HslColor) => void;
+  onSelectColor: (color: HslaColor) => void;
 }) {
   return (
     <div className="flex flex-col gap-4 items-center">
       <div className="flex">
-        {props.palette.map(([h, s, l], i) => {
+        {props.palette.map(([h, s, l, a], i) => {
           return (
             <div
               key={i}
@@ -217,13 +217,13 @@ function ConfigureColorMode(props: {
               }}
               className="w-8 h-12"
               onClick={() => {
-                props.onSelectColor({ h, s, l });
+                props.onSelectColor({ h, s, l, a });
               }}
             />
           );
         })}
       </div>
-      <HslColorPicker
+      <HslaColorPicker
         color={
           props.color
             ? {

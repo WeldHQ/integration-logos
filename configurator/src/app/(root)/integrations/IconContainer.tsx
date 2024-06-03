@@ -1,11 +1,11 @@
 import fs from "fs";
 import path from "path";
 
-import { ComponentProps, use } from "react";
+import { ComponentProps } from "react";
 
 import config from "@/../../config.json";
 import IconWithBG from "@/app/components/icon/IconWithBG";
-import { HSLColor, formatHSL, parseHSLA } from "@/app/util/colors";
+import { HSLAColor, formatHSL, parseHSLA } from "@/app/util/colors";
 
 import { Icon } from "./Icon";
 
@@ -43,8 +43,8 @@ function useUpdateColorConfig() {
   return async (
     integrationId: string,
     colorConfig: {
-      light: HSLColor;
-      dark: HSLColor;
+      light: HSLAColor;
+      dark: HSLAColor;
     }
   ) => {
     "use server";
@@ -70,7 +70,7 @@ export function IconContainer(
   const config = useIntegrationConfig(id);
   const update = useUpdateColorConfig();
 
-  async function updateColor(config: { light: HSLColor; dark: HSLColor }) {
+  async function updateColor(config: { light: HSLAColor; dark: HSLAColor }) {
     "use server";
     update(id, config);
   }
