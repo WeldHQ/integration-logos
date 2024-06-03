@@ -26,20 +26,16 @@
     "build": "npm-run-all build:clean build:config compile copy-image-files",
     "copy-image-files": "tsx ./scripts/flat-copy-image-files.ts ./integrations ./build/logos",
     "dev": "cd configurator && npm run dev",
-    "test": "echo \"Error: no test specified\" && ,exit 0",
-    "foo": "tsx ./scripts/generate-boxed-logo.ts"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "dependencies": {
-    "@svgdotjs/svg.js": "^3.2.0",
     "extract-colors": "^4.0.4",
     "get-pixels": "^3.3.3",
-    "svg2img": "^1.0.0-beta.2",
-    "svgdom": "^0.1.19"
+    "svg2img": "^1.0.0-beta.2"
   },
   "devDependencies": {
     "@types/get-pixels": "^3.3.4",
     "@types/node": "^20",
-    "@types/svgdom": "^0.1.2",
     "eslint": "^8",
     "npm-run-all": "^4.1.5",
     "tsx": "^4.9.3",
