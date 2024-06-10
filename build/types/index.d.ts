@@ -821,6 +821,12 @@ declare const integrations: {
         bg: string;
         bg_dark: string;
     };
+    sharepoint: {
+        fileName: string;
+        fileType: string;
+        bg: string;
+        bg_dark: string;
+    };
     shopify: {
         fileName: string;
         fileType: string;

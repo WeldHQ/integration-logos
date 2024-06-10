@@ -821,6 +821,12 @@
     "bg": "hsl(0 0% 92% / 1)",
     "bg_dark": "hsl(0 0% 54%)"
   },
+  "sharepoint": {
+    "fileName": "sharepoint.svg",
+    "fileType": ".svg",
+    "bg": "hsl(198 100% 89.2%)",
+    "bg_dark": "hsl(198 100% 89.2% / 0.1)"
+  },
   "shopify": {
     "fileName": "shopify.svg",
     "fileType": ".svg",
