@@ -749,6 +749,12 @@
         "bg": "hsl(331 94% 89%)",
         "bg_dark": "hsl(331 94% 89% / 0.1)"
     },
+    "qualtrics": {
+        "fileName": "qualtrics.svg",
+        "fileType": ".svg",
+        "bg": "hsl(254 78% 90.2%)",
+        "bg_dark": "hsl(254 78% 90.2% / 0.1)"
+    },
     "quickbooks": {
         "fileName": "quickbooks.svg",
         "fileType": ".svg",
