@@ -749,6 +749,12 @@ declare const integrations: {
         bg: string;
         bg_dark: string;
     };
+    qualtrics: {
+        fileName: string;
+        fileType: string;
+        bg: string;
+        bg_dark: string;
+    };
     quickbooks: {
         fileName: string;
         fileType: string;
