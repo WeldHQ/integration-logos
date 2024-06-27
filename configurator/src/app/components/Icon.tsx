@@ -5,7 +5,6 @@ import { ComponentProps, useEffect, useRef, useState } from "react";
 import { HslColorPicker, HslaColor, HslaColorPicker } from "react-colorful";
 import { useDebouncedCallback } from "use-debounce";
 
-import IconWithBG from "@/app/components/icon/IconWithBG";
 import cn from "@/app/util/cn";
 import { formatHSL, rgbToHsl } from "@/app/util/colors";
 import {
@@ -14,6 +13,8 @@ import {
   PopoverTrigger,
 } from "@/components/ui/popover";
 import ColorThief from "@neutrixs/colorthief";
+
+import IconWithBG from "./IconWithBG";
 
 const colorThief = new ColorThief();
 

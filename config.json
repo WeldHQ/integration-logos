@@ -21,7 +21,7 @@
     "fileName": "amazon-ads.svg",
     "fileType": ".svg",
     "bg": "hsl(36 100% 90%)",
-    "bg_dark": "hsl(36 100% 90% / 0.1)"
+    "bg_dark": "hsl(37 30% 36%)"
   },
   "amazon-aurora-mysql": {
     "fileName": "amazon-aurora-mysql.svg",
@@ -45,7 +45,7 @@
     "fileName": "amazon-selling-api.svg",
     "fileType": ".svg",
     "bg": "hsl(36 100% 90%)",
-    "bg_dark": "hsl(36 100% 90% / 0.1)"
+    "bg_dark": "hsl(37 30% 36%)"
   },
   "amazon-selling-api-oauth": {
     "fileName": "amazon-selling-api-oauth.svg",
@@ -94,12 +94,6 @@
     "fileType": ".svg",
     "bg": "hsl(6 41% 91.4%)",
     "bg_dark": "hsl(6 41% 91.4% / 0.1)"
-  },
-  "aws-s3__csv": {
-    "fileName": "aws-s3__csv.svg",
-    "fileType": ".svg",
-    "bg": "hsl(0 0% 92% / 1)",
-    "bg_dark": "hsl(0 0% 55%)"
   },
   "azure-analytics": {
     "fileName": "azure-analytics.svg",
@@ -178,6 +172,12 @@
     "fileType": ".svg",
     "bg": "hsl(220 97% 92%)",
     "bg_dark": "hsl(220 97% 92% / 0.1)"
+  },
+  "csv": {
+    "fileName": "csv.svg",
+    "fileType": ".svg",
+    "bg": "hsl(0 0% 92%)",
+    "bg_dark": "hsl(0 0% 55%)"
   },
   "custom-integration": {
     "fileName": "custom-integration.svg",
@@ -260,8 +260,8 @@
   "excel": {
     "fileName": "excel.svg",
     "fileType": ".svg",
-    "bg": "hsl(152 58% 89.6%)",
-    "bg_dark": "hsl(152 58% 89.6% / 0.1)"
+    "bg": "hsl(150 39% 93.6%)",
+    "bg_dark": "hsl(150 39% 93.6% / 0.1)"
   },
   "facebook-ads": {
     "fileName": "facebook-ads.svg",
@@ -296,8 +296,8 @@
   "forex-v2": {
     "fileName": "forex-v2.svg",
     "fileType": ".svg",
-    "bg": "hsl(0 100% 92%)",
-    "bg_dark": "hsl(0 16% 51% / 1)"
+    "bg": "hsl(0 100% 92% / 1)",
+    "bg_dark": "hsl(0 38% 70% / 1)"
   },
   "freshchat": {
     "fileName": "freshchat.svg",
@@ -325,12 +325,6 @@
   },
   "ftp": {
     "fileName": "ftp.svg",
-    "fileType": ".svg",
-    "bg": "hsl(0 0% 92%)",
-    "bg_dark": "hsl(0 0% 55%)"
-  },
-  "ftp__csv": {
-    "fileName": "ftp__csv.svg",
     "fileType": ".svg",
     "bg": "hsl(0 0% 92%)",
     "bg_dark": "hsl(0 0% 55%)"
@@ -364,12 +358,6 @@
     "fileType": ".svg",
     "bg": "hsl(218 100% 90%)",
     "bg_dark": "hsl(218 100% 90% / 0.1)"
-  },
-  "google-drive__csv": {
-    "fileName": "google-drive__csv.svg",
-    "fileType": ".svg",
-    "bg": "hsl(0 0% 92%)",
-    "bg_dark": "hsl(0 0% 55%)"
   },
   "google-drive__excel": {
     "fileName": "google-drive__excel.svg",
@@ -519,7 +507,7 @@
     "fileName": "mailchimp.svg",
     "fileType": ".svg",
     "bg": "hsl(47 100% 83% / 1)",
-    "bg_dark": "hsl(47 42% 39%)"
+    "bg_dark": "hsl(47 36% 53% / 1)"
   },
   "mariadb": {
     "fileName": "mariadb.svg",
@@ -585,7 +573,7 @@
     "fileName": "mode.svg",
     "fileType": ".svg",
     "bg": "hsl(162 88% 82% / 1)",
-    "bg_dark": "hsl(162 47% 35%)"
+    "bg_dark": "hsl(162 24% 57% / 1)"
   },
   "monday": {
     "fileName": "monday.svg",
@@ -644,8 +632,8 @@
   "netsuite": {
     "fileName": "netsuite.svg",
     "fileType": ".svg",
-    "bg": "hsl(204 98% 84.4%)",
-    "bg_dark": "hsl(204 98% 84.4% / 0.1)"
+    "bg": "hsl(204 100% 93% / 1)",
+    "bg_dark": "hsl(204 98% 84% / 0.1)"
   },
   "netvisor": {
     "fileName": "netvisor.svg",
@@ -659,8 +647,8 @@
     "bg": "hsl(213 67% 88.8%)",
     "bg_dark": "hsl(213 67% 88.8% / 0.1)"
   },
-  "one-drive": {
-    "fileName": "one-drive.svg",
+  "onedrive": {
+    "fileName": "onedrive.svg",
     "fileType": ".svg",
     "bg": "hsl(200 82% 90.6%)",
     "bg_dark": "hsl(200 82% 90.6% / 0.1)"
@@ -765,7 +753,7 @@
     "fileName": "recharge.svg",
     "fileType": ".svg",
     "bg": "hsl(254 99% 89% / 1)",
-    "bg_dark": "hsl(254 20% 55%)"
+    "bg_dark": "hsl(254 21% 57% / 1)"
   },
   "recurly": {
     "fileName": "recurly.svg",
@@ -820,12 +808,6 @@
     "fileType": ".svg",
     "bg": "hsl(0 0% 92%)",
     "bg_dark": "hsl(0 0% 55%)"
-  },
-  "sftp__csv": {
-    "fileName": "sftp__csv.svg",
-    "fileType": ".svg",
-    "bg": "hsl(0 0% 92% / 1)",
-    "bg_dark": "hsl(0 0% 54%)"
   },
   "sharepoint": {
     "fileName": "sharepoint.svg",
@@ -986,7 +968,7 @@
   "yoast-seo": {
     "fileName": "yoast-seo.svg",
     "fileType": ".svg",
-    "bg": "hsl(330 43% 77%)",
+    "bg": "hsl(330 63% 90% / 1)",
     "bg_dark": "hsl(330 43% 77% / 0.1)"
   },
   "youtube-analytics": {
