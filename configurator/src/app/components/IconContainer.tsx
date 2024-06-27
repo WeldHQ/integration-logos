@@ -4,10 +4,10 @@ import path from "path";
 import { ComponentProps } from "react";
 
 import config from "@/../../config.json";
-import IconWithBG from "@/app/components/icon/IconWithBG";
 import { HSLAColor, formatHSL, parseHSLA } from "@/app/util/colors";
 
 import { Icon } from "./Icon";
+import IconWithBG from "./IconWithBG";
 
 const getIntegrationConfig = (integrationId: string) => {
   return config[integrationId as keyof typeof config];

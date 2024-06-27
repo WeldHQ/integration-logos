@@ -95,12 +95,6 @@ declare const integrations: {
         bg: string;
         bg_dark: string;
     };
-    "aws-s3__csv": {
-        fileName: string;
-        fileType: string;
-        bg: string;
-        bg_dark: string;
-    };
     "azure-analytics": {
         fileName: string;
         fileType: string;
@@ -174,6 +168,12 @@ declare const integrations: {
         bg_dark: string;
     };
     "contact-form-seven": {
+        fileName: string;
+        fileType: string;
+        bg: string;
+        bg_dark: string;
+    };
+    csv: {
         fileName: string;
         fileType: string;
         bg: string;
@@ -329,12 +329,6 @@ declare const integrations: {
         bg: string;
         bg_dark: string;
     };
-    ftp__csv: {
-        fileName: string;
-        fileType: string;
-        bg: string;
-        bg_dark: string;
-    };
     "google-ads": {
         fileName: string;
         fileType: string;
@@ -360,12 +354,6 @@ declare const integrations: {
         bg_dark: string;
     };
     "google-drive": {
-        fileName: string;
-        fileType: string;
-        bg: string;
-        bg_dark: string;
-    };
-    "google-drive__csv": {
         fileName: string;
         fileType: string;
         bg: string;
@@ -659,7 +647,7 @@ declare const integrations: {
         bg: string;
         bg_dark: string;
     };
-    "one-drive": {
+    onedrive: {
         fileName: string;
         fileType: string;
         bg: string;
@@ -816,12 +804,6 @@ declare const integrations: {
         bg_dark: string;
     };
     sftp: {
-        fileName: string;
-        fileType: string;
-        bg: string;
-        bg_dark: string;
-    };
-    sftp__csv: {
         fileName: string;
         fileType: string;
         bg: string;
