@@ -365,6 +365,12 @@
     "bg": "hsl(150 39% 93.6%)",
     "bg_dark": "hsl(150 39% 93.6% / 0.1)"
   },
+  "google-my-business-profile": {
+    "fileName": "google-business-profile.svg",
+    "fileType": ".svg",
+    "bg": "hsl(218 100% 90% / 1)",
+    "bg_dark": "hsl(44 96% 90% / 0.1)"
+  },
   "google-search-console": {
     "fileName": "google-search-console.svg",
     "fileType": ".svg",

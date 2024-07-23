@@ -365,6 +365,12 @@ declare const integrations: {
         bg: string;
         bg_dark: string;
     };
+    "google-my-business-profile": {
+        fileName: string;
+        fileType: string;
+        bg: string;
+        bg_dark: string;
+    };
     "google-search-console": {
         fileName: string;
         fileType: string;
