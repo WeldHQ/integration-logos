@@ -456,7 +456,7 @@
         "bg_dark": "hsl(11 100% 93% / 0.1)"
     },
     "instagram-ads": {
-        "fileName": "instagram-business.svg",
+        "fileName": "instagram-ads.svg",
         "fileType": ".svg",
         "bg": "hsl(312 72% 92% / 1)",
         "bg_dark": "hsl(37 98% 90% / 0.1)"
@@ -588,13 +588,19 @@
         "bg_dark": "hsl(172 100% 85% / 0.1)"
     },
     "microsoft-dynamics-365": {
-        "fileName": "microsoft-dynamics-365.svg",
+        "fileName": "microsoft-dynamics.svg",
         "fileType": ".svg",
         "bg": "hsl(0 0% 92%)",
         "bg_dark": "hsl(0 0% 55%)"
     },
     "microsoft-dynamics-ax": {
-        "fileName": "microsoft-dynamics-ax.svg",
+        "fileName": "microsoft-dynamics.svg",
+        "fileType": ".svg",
+        "bg": "hsl(0 0% 92%)",
+        "bg_dark": "hsl(0 0% 55%)"
+    },
+    "microsoft-dynamics-c5": {
+        "fileName": "microsoft-dynamics.svg",
         "fileType": ".svg",
         "bg": "hsl(0 0% 92%)",
         "bg_dark": "hsl(0 0% 55%)"

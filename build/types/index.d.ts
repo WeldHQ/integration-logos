@@ -599,6 +599,12 @@ declare const integrations: {
         bg: string;
         bg_dark: string;
     };
+    "microsoft-dynamics-c5": {
+        fileName: string;
+        fileType: string;
+        bg: string;
+        bg_dark: string;
+    };
     "microsoft-dynamics-finance-operations": {
         fileName: string;
         fileType: string;
