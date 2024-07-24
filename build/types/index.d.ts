@@ -227,6 +227,12 @@ declare const integrations: {
         bg: string;
         bg_dark: string;
     };
+    dropbox: {
+        fileName: string;
+        fileType: string;
+        bg: string;
+        bg_dark: string;
+    };
     drupal: {
         fileName: string;
         fileType: string;
@@ -299,6 +305,12 @@ declare const integrations: {
         bg: string;
         bg_dark: string;
     };
+    fortnox: {
+        fileName: string;
+        fileType: string;
+        bg: string;
+        bg_dark: string;
+    };
     freshchat: {
         fileName: string;
         fileType: string;
@@ -324,6 +336,12 @@ declare const integrations: {
         bg_dark: string;
     };
     ftp: {
+        fileName: string;
+        fileType: string;
+        bg: string;
+        bg_dark: string;
+    };
+    github: {
         fileName: string;
         fileType: string;
         bg: string;
@@ -437,6 +455,12 @@ declare const integrations: {
         bg: string;
         bg_dark: string;
     };
+    "instagram-ads": {
+        fileName: string;
+        fileType: string;
+        bg: string;
+        bg_dark: string;
+    };
     "instagram-business": {
         fileName: string;
         fileType: string;
@@ -492,6 +516,12 @@ declare const integrations: {
         bg_dark: string;
     };
     looker: {
+        fileName: string;
+        fileType: string;
+        bg: string;
+        bg_dark: string;
+    };
+    "looker-studio": {
         fileName: string;
         fileType: string;
         bg: string;
@@ -558,6 +588,24 @@ declare const integrations: {
         bg_dark: string;
     };
     "microsoft-dynamics-365": {
+        fileName: string;
+        fileType: string;
+        bg: string;
+        bg_dark: string;
+    };
+    "microsoft-dynamics-ax": {
+        fileName: string;
+        fileType: string;
+        bg: string;
+        bg_dark: string;
+    };
+    "microsoft-dynamics-finance-operations": {
+        fileName: string;
+        fileType: string;
+        bg: string;
+        bg_dark: string;
+    };
+    "microsoft-dynamics-nav": {
         fileName: string;
         fileType: string;
         bg: string;
@@ -918,6 +966,12 @@ declare const integrations: {
         bg_dark: string;
     };
     "typo-three": {
+        fileName: string;
+        fileType: string;
+        bg: string;
+        bg_dark: string;
+    };
+    visma: {
         fileName: string;
         fileType: string;
         bg: string;
