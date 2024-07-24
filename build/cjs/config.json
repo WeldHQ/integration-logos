@@ -974,8 +974,8 @@
     "visma": {
         "fileName": "visma.svg",
         "fileType": ".svg",
-        "bg": "hsl(344 94% 89.2%)",
-        "bg_dark": "hsl(344 94% 89.2% / 0.1)"
+        "bg": "hsl(344 100% 95% / 1)",
+        "bg_dark": "hsl(344 94% 89% / 0.1)"
     },
     "vitally": {
         "fileName": "vitally.svg",
