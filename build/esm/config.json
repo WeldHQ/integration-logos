@@ -14,8 +14,8 @@
     "airtable": {
         "fileName": "airtable.svg",
         "fileType": ".svg",
-        "bg": "hsl(42 100% 89.8%)",
-        "bg_dark": "hsl(42 100% 89.8% / 0.1)"
+        "bg": "hsl(197 100% 92%)",
+        "bg_dark": "hsl(42 100% 89% / 0.1)"
     },
     "amazon-ads": {
         "fileName": "amazon-ads.svg",
@@ -227,6 +227,12 @@
         "bg": "hsl(249 74% 91%)",
         "bg_dark": "hsl(249 74% 91% / 0.1)"
     },
+    "dropbox": {
+        "fileName": "dropbox.svg",
+        "fileType": ".svg",
+        "bg": "hsl(217 100% 90%)",
+        "bg_dark": "hsl(217 100% 90% / 0.1)"
+    },
     "drupal": {
         "fileName": "drupal.svg",
         "fileType": ".svg",
@@ -299,6 +305,12 @@
         "bg": "hsl(0 100% 92% / 1)",
         "bg_dark": "hsl(0 38% 70% / 1)"
     },
+    "fortnox": {
+        "fileName": "fortnox-brand-symbol.svg",
+        "fileType": ".svg",
+        "bg": "hsl(154 0% 91% / 1)",
+        "bg_dark": "hsl(46 19% 47% / 1)"
+    },
     "freshchat": {
         "fileName": "freshchat.svg",
         "fileType": ".svg",
@@ -325,6 +337,12 @@
     },
     "ftp": {
         "fileName": "ftp.svg",
+        "fileType": ".svg",
+        "bg": "hsl(0 0% 92%)",
+        "bg_dark": "hsl(0 0% 55%)"
+    },
+    "github": {
+        "fileName": "github.svg",
         "fileType": ".svg",
         "bg": "hsl(0 0% 92%)",
         "bg_dark": "hsl(0 0% 55%)"
@@ -368,7 +386,7 @@
     "google-my-business-profile": {
         "fileName": "google-business-profile.svg",
         "fileType": ".svg",
-        "bg": "hsl(44 96% 90%)",
+        "bg": "hsl(218 100% 90% / 1)",
         "bg_dark": "hsl(44 96% 90% / 0.1)"
     },
     "google-search-console": {
@@ -437,6 +455,12 @@
         "bg": "hsl(11 100% 93%)",
         "bg_dark": "hsl(11 100% 93% / 0.1)"
     },
+    "instagram-ads": {
+        "fileName": "instagram-business.svg",
+        "fileType": ".svg",
+        "bg": "hsl(312 72% 92% / 1)",
+        "bg_dark": "hsl(37 98% 90% / 0.1)"
+    },
     "instagram-business": {
         "fileName": "instagram-business.svg",
         "fileType": ".svg",
@@ -493,6 +517,12 @@
     },
     "looker": {
         "fileName": "looker.svg",
+        "fileType": ".svg",
+        "bg": "hsl(217 89% 92%)",
+        "bg_dark": "hsl(217 89% 92% / 0.1)"
+    },
+    "looker-studio": {
+        "fileName": "looker-studio.svg",
         "fileType": ".svg",
         "bg": "hsl(217 89% 92%)",
         "bg_dark": "hsl(217 89% 92% / 0.1)"
@@ -559,6 +589,24 @@
     },
     "microsoft-dynamics-365": {
         "fileName": "microsoft-dynamics-365.svg",
+        "fileType": ".svg",
+        "bg": "hsl(0 0% 92%)",
+        "bg_dark": "hsl(0 0% 55%)"
+    },
+    "microsoft-dynamics-ax": {
+        "fileName": "microsoft-dynamics-ax.svg",
+        "fileType": ".svg",
+        "bg": "hsl(0 0% 92%)",
+        "bg_dark": "hsl(0 0% 55%)"
+    },
+    "microsoft-dynamics-finance-operations": {
+        "fileName": "microsoft-dynamics.svg",
+        "fileType": ".svg",
+        "bg": "hsl(0 0% 92%)",
+        "bg_dark": "hsl(0 0% 55%)"
+    },
+    "microsoft-dynamics-nav": {
+        "fileName": "microsoft-dynamics.svg",
         "fileType": ".svg",
         "bg": "hsl(0 0% 92%)",
         "bg_dark": "hsl(0 0% 55%)"
@@ -922,6 +970,12 @@
         "fileType": ".svg",
         "bg": "hsl(31 100% 90%)",
         "bg_dark": "hsl(31 100% 90% / 0.1)"
+    },
+    "visma": {
+        "fileName": "visma.svg",
+        "fileType": ".svg",
+        "bg": "hsl(344 94% 89.2%)",
+        "bg_dark": "hsl(344 94% 89.2% / 0.1)"
     },
     "vitally": {
         "fileName": "vitally.svg",
