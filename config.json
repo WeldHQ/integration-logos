@@ -95,6 +95,12 @@
     "bg": "hsl(6 41% 91.4%)",
     "bg_dark": "hsl(6 41% 91.4% / 0.1)"
   },
+  "aws-s3-destination": {
+    "fileName": "aws-s3.svg",
+    "fileType": ".svg",
+    "bg": "hsl(6 41% 91.4%)",
+    "bg_dark": "hsl(6 41% 91.4% / 0.1)"
+  },
   "azure-analytics": {
     "fileName": "azure-analytics.svg",
     "fileType": ".svg",
@@ -671,6 +677,12 @@
     "bg": "hsl(191 100% 85%)",
     "bg_dark": "hsl(191 100% 85% / 0.1)"
   },
+  "mysql-destination": {
+    "fileName": "mysql.svg",
+    "fileType": ".svg",
+    "bg": "hsl(191 100% 85%)",
+    "bg_dark": "hsl(191 100% 85% / 0.1)"
+  },
   "mysql-on-amazon-rds": {
     "fileName": "mysql-on-amazon-rds.svg",
     "fileType": ".svg",
@@ -922,6 +934,12 @@
     "fileType": ".svg",
     "bg": "hsl(210 100% 88%)",
     "bg_dark": "hsl(210 100% 88% / 0.1)"
+  },
+  "sql-server-destination": {
+    "fileName": "sqlServer.svg",
+    "fileType": ".svg",
+    "bg": "hsl(357 70% 87.6%)",
+    "bg_dark": "hsl(357 70% 87.6% / 0.1)"
   },
   "sql-server-on-rds": {
     "fileName": "sql-server-on-rds.svg",

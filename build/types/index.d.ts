@@ -95,6 +95,12 @@ declare const integrations: {
         bg: string;
         bg_dark: string;
     };
+    "aws-s3-destination": {
+        fileName: string;
+        fileType: string;
+        bg: string;
+        bg_dark: string;
+    };
     "azure-analytics": {
         fileName: string;
         fileType: string;
@@ -671,6 +677,12 @@ declare const integrations: {
         bg: string;
         bg_dark: string;
     };
+    "mysql-destination": {
+        fileName: string;
+        fileType: string;
+        bg: string;
+        bg_dark: string;
+    };
     "mysql-on-amazon-rds": {
         fileName: string;
         fileType: string;
@@ -918,6 +930,12 @@ declare const integrations: {
         bg_dark: string;
     };
     "spree-commerce": {
+        fileName: string;
+        fileType: string;
+        bg: string;
+        bg_dark: string;
+    };
+    "sql-server-destination": {
         fileName: string;
         fileType: string;
         bg: string;
