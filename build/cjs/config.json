@@ -356,7 +356,7 @@
     "google-ads": {
         "fileName": "google-ads.svg",
         "fileType": ".svg",
-        "bg": "hsl(218 100% 90%)",
+        "bg": "hsl(218 100% 95% / 1)",
         "bg_dark": "hsl(218 100% 90% / 0.1)"
     },
     "google-analytics": {
@@ -380,7 +380,7 @@
     "google-drive": {
         "fileName": "google-drive.svg",
         "fileType": ".svg",
-        "bg": "hsl(218 100% 90%)",
+        "bg": "hsl(218 100% 94% / 1)",
         "bg_dark": "hsl(218 100% 90% / 0.1)"
     },
     "google-drive__excel": {
@@ -392,7 +392,7 @@
     "google-my-business-profile": {
         "fileName": "google-business-profile.svg",
         "fileType": ".svg",
-        "bg": "hsl(218 100% 90% / 1)",
+        "bg": "hsl(218 100% 95% / 1)",
         "bg_dark": "hsl(44 96% 90% / 0.1)"
     },
     "google-search-console": {
@@ -476,8 +476,8 @@
     "intercom": {
         "fileName": "intercom.svg",
         "fileType": ".svg",
-        "bg": "hsl(207 85% 90.4%)",
-        "bg_dark": "hsl(207 85% 90.4% / 0.1)"
+        "bg": "hsl(207 100% 94% / 1)",
+        "bg_dark": "hsl(207 85% 90% / 0.1)"
     },
     "invision-community": {
         "fileName": "invision-community.svg",
@@ -512,7 +512,7 @@
     "linkedin-ads": {
         "fileName": "linkedin-ads.svg",
         "fileType": ".svg",
-        "bg": "hsl(210 90% 88%)",
+        "bg": "hsl(210 100% 94% / 1)",
         "bg_dark": "hsl(210 90% 88% / 0.1)"
     },
     "loaded-commerce": {
@@ -590,7 +590,7 @@
     "microsoft-ads": {
         "fileName": "microsoft-ads.svg",
         "fileType": ".svg",
-        "bg": "hsl(172 100% 85%)",
+        "bg": "hsl(172 33% 86% / 1)",
         "bg_dark": "hsl(172 100% 85% / 0.1)"
     },
     "microsoft-dynamics-365": {
@@ -932,7 +932,7 @@
     "spree-commerce": {
         "fileName": "spree-commerce.svg",
         "fileType": ".svg",
-        "bg": "hsl(210 100% 88%)",
+        "bg": "hsl(210 100% 93% / 1)",
         "bg_dark": "hsl(210 100% 88% / 0.1)"
     },
     "sql-server-destination": {
@@ -1010,7 +1010,7 @@
     "weld-bigquery": {
         "fileName": "weld-bigquery.svg",
         "fileType": ".svg",
-        "bg": "hsl(218 94% 92%)",
+        "bg": "hsl(218 100% 95% / 1)",
         "bg_dark": "hsl(218 94% 92% / 0.1)"
     },
     "woocommerce": {
@@ -1028,8 +1028,8 @@
     "wordpress": {
         "fileName": "wordpress.svg",
         "fileType": ".svg",
-        "bg": "hsl(204 94% 87.8%)",
-        "bg_dark": "hsl(204 94% 87.8% / 0.1)"
+        "bg": "hsl(204 100% 94% / 1)",
+        "bg_dark": "hsl(204 94% 87% / 0.1)"
     },
     "workday": {
         "fileName": "workday.svg",
