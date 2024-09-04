@@ -1061,6 +1061,12 @@ declare const integrations: {
         bg: string;
         bg_dark: string;
     };
+    zalando: {
+        fileName: string;
+        fileType: string;
+        bg: string;
+        bg_dark: string;
+    };
     zendesk: {
         fileName: string;
         fileType: string;

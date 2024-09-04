@@ -1061,6 +1061,12 @@
     "bg": "hsl(0 100% 94%)",
     "bg_dark": "hsl(0 100% 94% / 0.1)"
   },
+  "zalando": {
+    "fileName": "zalando.svg",
+    "fileType": ".svg",
+    "bg": "hsl(24 100% 90%)",
+    "bg_dark": "hsl(24 100% 90% / 0.1)"
+  },
   "zendesk": {
     "fileName": "zendesk.svg",
     "fileType": ".svg",
