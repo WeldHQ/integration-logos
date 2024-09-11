@@ -281,6 +281,12 @@ declare const integrations: {
         bg: string;
         bg_dark: string;
     };
+    "facebook-pages": {
+        fileName: string;
+        fileType: string;
+        bg: string;
+        bg_dark: string;
+    };
     firebase: {
         fileName: string;
         fileType: string;
