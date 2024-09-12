@@ -293,6 +293,12 @@
     "bg": "hsl(208 86% 94.8%)",
     "bg_dark": "hsl(208 86% 94.8% / 0.1)"
   },
+  "facebook-pages": {
+    "fileName": "facebook-pages.svg",
+    "fileType": ".svg",
+    "bg": "hsl(208 86% 94.8%)",
+    "bg_dark": "hsl(208 86% 94.8% / 0.1)"
+  },
   "firebase": {
     "fileName": "firebase.svg",
     "fileType": ".svg",
