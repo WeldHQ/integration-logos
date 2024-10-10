@@ -221,6 +221,12 @@
     "bg": "hsl(5 85% 91%)",
     "bg_dark": "hsl(5 85% 91% / 0.1)"
   },
+  "dbt-cloud": {
+    "fileName": "dbt-cloud.svg",
+    "fileType": ".svg",
+    "bg": "hsl(10 100% 92.8%)",
+    "bg_dark": "hsl(10 100% 92.8% / 0.1)"
+  },
   "discourse": {
     "fileName": "discourse.svg",
     "fileType": ".svg",

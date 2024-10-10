@@ -221,6 +221,12 @@ declare const integrations: {
         bg: string;
         bg_dark: string;
     };
+    "dbt-cloud": {
+        fileName: string;
+        fileType: string;
+        bg: string;
+        bg_dark: string;
+    };
     discourse: {
         fileName: string;
         fileType: string;
