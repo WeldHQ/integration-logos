@@ -19,6 +19,7 @@
     "./*": "./build/logos/*"
   },
   "scripts": {
+    "postinstall": "cd configurator && npm install",
     "prepare": "npm run build",
     "compile": "tsc -b ./tsconfig.cjs.json ./tsconfig.esm.json ./tsconfig.types.json",
     "build:config": "tsx ./scripts/generate-logos-config.ts",
