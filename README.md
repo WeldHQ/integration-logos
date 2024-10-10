@@ -9,3 +9,4 @@
 - Add your logo (svg preferred) to the folder and name it after your integration
 - Run `npm run build` and it should generate
 - Run `npm run dev` and navigate to `http://localhost:3000/` to see how the file looks
+- When you have merged your PR. Add a tag to the github repo - which will be used to reference the new version where you want to use this integration package.
