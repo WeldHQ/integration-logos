@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import { pathToFileURL } from "url";
 
 import { extractColors } from "extract-colors";
 import { FinalColor } from "extract-colors/lib/types/Color.js";
@@ -124,7 +125,10 @@ export function blendHSLColorWithAlpha(
 
 async function run() {
   const currentIntegrations = resolveIntegrationsFromDir();
-  const previousConfig = (await import(configFilePath)).default;
+
+  // Convert config file path to a file URL
+  const configFileUrl = pathToFileURL(configFilePath).href;
+  const previousConfig = (await import(configFileUrl)).default;
 
   const newConfig: {
     integrationId: string;
