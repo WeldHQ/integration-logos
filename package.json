@@ -1,6 +1,6 @@
 {
   "name": "@weldhq/integration-logos",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "repository": "https://github.com/WeldHQ/integration-logos.git",
   "main": "./build/cjs/index.js",
   "module": "./build/esm/index.js",
@@ -19,7 +19,6 @@
     "./*": "./build/logos/*"
   },
   "scripts": {
-    "postinstall": "cd configurator && npm install",
     "prepare": "npm run build",
     "compile": "tsc -b ./tsconfig.cjs.json ./tsconfig.esm.json ./tsconfig.types.json",
     "build:config": "tsx ./scripts/generate-logos-config.ts",
