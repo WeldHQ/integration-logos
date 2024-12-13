@@ -179,6 +179,12 @@ declare const integrations: {
         bg: string;
         bg_dark: string;
     };
+    criteo: {
+        fileName: string;
+        fileType: string;
+        bg: string;
+        bg_dark: string;
+    };
     csv: {
         fileName: string;
         fileType: string;

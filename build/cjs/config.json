@@ -179,6 +179,12 @@
         "bg": "hsl(220 97% 92%)",
         "bg_dark": "hsl(220 97% 92% / 0.1)"
     },
+    "criteo": {
+        "fileName": "criteo.svg",
+        "fileType": ".svg",
+        "bg": "hsl(30 100% 91%)",
+        "bg_dark": "hsl(30 100% 91% / 0.1)"
+    },
     "csv": {
         "fileName": "csv.svg",
         "fileType": ".svg",
