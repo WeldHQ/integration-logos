@@ -371,6 +371,12 @@
         "bg": "hsl(0 0% 92%)",
         "bg_dark": "hsl(0 0% 55%)"
     },
+    "go-high": {
+        "fileName": "go-high-level.svg",
+        "fileType": ".svg",
+        "bg": "hsl(209 92% 91%)",
+        "bg_dark": "hsl(209 92% 91% / 0.1)"
+    },
     "google-ads": {
         "fileName": "google-ads.svg",
         "fileType": ".svg",
