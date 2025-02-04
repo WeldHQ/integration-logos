@@ -371,6 +371,12 @@ declare const integrations: {
         bg: string;
         bg_dark: string;
     };
+    "go-high": {
+        fileName: string;
+        fileType: string;
+        bg: string;
+        bg_dark: string;
+    };
     "google-ads": {
         fileName: string;
         fileType: string;
