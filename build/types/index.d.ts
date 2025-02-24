@@ -1085,6 +1085,12 @@ declare const integrations: {
         bg: string;
         bg_dark: string;
     };
+    webhooks: {
+        fileName: string;
+        fileType: string;
+        bg: string;
+        bg_dark: string;
+    };
     "weld-bigquery": {
         fileName: string;
         fileType: string;

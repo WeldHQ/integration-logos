@@ -1085,6 +1085,12 @@
     "bg": "hsl(187 59% 89.2%)",
     "bg_dark": "hsl(187 59% 89.2% / 0.1)"
   },
+  "webhooks": {
+    "fileName": "webhooks.svg",
+    "fileType": ".svg",
+    "bg": "hsl(342 100% 94%)",
+    "bg_dark": "hsl(342 62% 59% / 0.18)"
+  },
   "weld-bigquery": {
     "fileName": "weld-bigquery.svg",
     "fileType": ".svg",
