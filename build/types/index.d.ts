@@ -11,6 +11,12 @@ declare const integrations: {
         bg: string;
         bg_dark: string;
     };
+    adyen: {
+        fileName: string;
+        fileType: string;
+        bg: string;
+        bg_dark: string;
+    };
     airtable: {
         fileName: string;
         fileType: string;
@@ -65,6 +71,12 @@ declare const integrations: {
         bg: string;
         bg_dark: string;
     };
+    "apple-search-ads": {
+        fileName: string;
+        fileType: string;
+        bg: string;
+        bg_dark: string;
+    };
     appsflyer: {
         fileName: string;
         fileType: string;
@@ -72,6 +84,12 @@ declare const integrations: {
         bg_dark: string;
     };
     asana: {
+        fileName: string;
+        fileType: string;
+        bg: string;
+        bg_dark: string;
+    };
+    attio: {
         fileName: string;
         fileType: string;
         bg: string;
@@ -114,6 +132,12 @@ declare const integrations: {
         bg_dark: string;
     };
     "azure-cosmos": {
+        fileName: string;
+        fileType: string;
+        bg: string;
+        bg_dark: string;
+    };
+    "azure-functions": {
         fileName: string;
         fileType: string;
         bg: string;
@@ -162,6 +186,12 @@ declare const integrations: {
         bg_dark: string;
     };
     clerkio: {
+        fileName: string;
+        fileType: string;
+        bg: string;
+        bg_dark: string;
+    };
+    clickhouse: {
         fileName: string;
         fileType: string;
         bg: string;
@@ -395,6 +425,12 @@ declare const integrations: {
         bg: string;
         bg_dark: string;
     };
+    "google-cloud-functions": {
+        fileName: string;
+        fileType: string;
+        bg: string;
+        bg_dark: string;
+    };
     "google-cloud-storage": {
         fileName: string;
         fileType: string;
@@ -534,6 +570,12 @@ declare const integrations: {
         bg_dark: string;
     };
     "linkedin-ads": {
+        fileName: string;
+        fileType: string;
+        bg: string;
+        bg_dark: string;
+    };
+    "linkedin-company-pages": {
         fileName: string;
         fileType: string;
         bg: string;
@@ -738,6 +780,12 @@ declare const integrations: {
         bg_dark: string;
     };
     "node-bb": {
+        fileName: string;
+        fileType: string;
+        bg: string;
+        bg_dark: string;
+    };
+    notion: {
         fileName: string;
         fileType: string;
         bg: string;
@@ -1031,6 +1079,12 @@ declare const integrations: {
         bg: string;
         bg_dark: string;
     };
+    "web-scraper": {
+        fileName: string;
+        fileType: string;
+        bg: string;
+        bg_dark: string;
+    };
     "weld-bigquery": {
         fileName: string;
         fileType: string;
@@ -1092,6 +1146,12 @@ declare const integrations: {
         bg_dark: string;
     };
     zendesk: {
+        fileName: string;
+        fileType: string;
+        bg: string;
+        bg_dark: string;
+    };
+    zoho: {
         fileName: string;
         fileType: string;
         bg: string;

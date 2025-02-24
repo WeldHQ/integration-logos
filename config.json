@@ -11,6 +11,12 @@
     "bg": "hsl(3 95% 94.8%)",
     "bg_dark": "hsl(3 95% 94.8% / 0.1)"
   },
+  "adyen": {
+    "fileName": "adyen.svg",
+    "fileType": ".svg",
+    "bg": "hsl(134 54% 89%)",
+    "bg_dark": "hsl(134 54% 89% / 0.1)"
+  },
   "airtable": {
     "fileName": "airtable.svg",
     "fileType": ".svg",
@@ -65,6 +71,12 @@
     "bg": "hsl(198 95% 90.6%)",
     "bg_dark": "hsl(198 95% 90.6% / 0.1)"
   },
+  "apple-search-ads": {
+    "fileName": "apple-search-ads.svg",
+    "fileType": ".svg",
+    "bg": "hsl(0 0% 80%)",
+    "bg_dark": "hsl(0 0% 80% / 0.1)"
+  },
   "appsflyer": {
     "fileName": "appsflyer.svg",
     "fileType": ".svg",
@@ -76,6 +88,12 @@
     "fileType": ".svg",
     "bg": "hsl(0 83% 92.6%)",
     "bg_dark": "hsl(0 83% 92.6% / 0.1)"
+  },
+  "attio": {
+    "fileName": "attio.svg",
+    "fileType": ".svg",
+    "bg": "hsl(0 0% 80%)",
+    "bg_dark": "hsl(0 0% 80% / 0.1)"
   },
   "autopilot": {
     "fileName": "autopilot.svg",
@@ -118,6 +136,12 @@
     "fileType": ".svg",
     "bg": "hsl(209 58% 89.2%)",
     "bg_dark": "hsl(209 58% 89.2% / 0.1)"
+  },
+  "azure-functions": {
+    "fileName": "azure-functions.svg",
+    "fileType": ".svg",
+    "bg": "hsl(48 97% 90.6%)",
+    "bg_dark": "hsl(48 97% 90.6% / 0.1)"
   },
   "azure-sql": {
     "fileName": "azure-sql.svg",
@@ -166,6 +190,12 @@
     "fileType": ".svg",
     "bg": "hsl(14 100% 91%)",
     "bg_dark": "hsl(14 100% 91% / 0.1)"
+  },
+  "clickhouse": {
+    "fileName": "clickhouse.svg",
+    "fileType": ".svg",
+    "bg": "hsl(0 0% 80%)",
+    "bg_dark": "hsl(0 0% 80% / 0.1)"
   },
   "clickup": {
     "fileName": "clickup.svg",
@@ -395,6 +425,12 @@
     "bg": "hsl(41 100% 89.6%)",
     "bg_dark": "hsl(41 100% 89.6% / 0.1)"
   },
+  "google-cloud-functions": {
+    "fileName": "google-cloud-functions.svg",
+    "fileType": ".svg",
+    "bg": "hsl(217 89% 92%)",
+    "bg_dark": "hsl(217 89% 92% / 0.1)"
+  },
   "google-cloud-storage": {
     "fileName": "google-cloud-storage.svg",
     "fileType": ".svg",
@@ -537,6 +573,12 @@
     "fileName": "linkedin-ads.svg",
     "fileType": ".svg",
     "bg": "hsl(210 100% 94% / 1)",
+    "bg_dark": "hsl(210 90% 88% / 0.1)"
+  },
+  "linkedin-company-pages": {
+    "fileName": "linkedin-company-pages.svg",
+    "fileType": ".svg",
+    "bg": "hsl(210 90% 88%)",
     "bg_dark": "hsl(210 90% 88% / 0.1)"
   },
   "loaded-commerce": {
@@ -742,6 +784,12 @@
     "fileType": ".svg",
     "bg": "hsl(213 67% 88.8%)",
     "bg_dark": "hsl(213 67% 88.8% / 0.1)"
+  },
+  "notion": {
+    "fileName": "notion.svg",
+    "fileType": ".svg",
+    "bg": "hsl(0 0% 99.6%)",
+    "bg_dark": "hsl(0 0% 99.6% / 0.1)"
   },
   "onedrive": {
     "fileName": "onedrive.svg",
@@ -1031,6 +1079,12 @@
     "bg": "hsl(212 97% 93%)",
     "bg_dark": "hsl(212 97% 93% / 0.1)"
   },
+  "web-scraper": {
+    "fileName": "web-scraper.svg",
+    "fileType": ".svg",
+    "bg": "hsl(187 59% 89.2%)",
+    "bg_dark": "hsl(187 59% 89.2% / 0.1)"
+  },
   "weld-bigquery": {
     "fileName": "weld-bigquery.svg",
     "fileType": ".svg",
@@ -1096,5 +1150,11 @@
     "fileType": ".svg",
     "bg": "hsl(218 100% 95% / 1)",
     "bg_dark": "hsl(188 70% 74% / 0.5)"
+  },
+  "zoho": {
+    "fileName": "zoho.svg",
+    "fileType": ".svg",
+    "bg": "hsl(40 94% 90.8%)",
+    "bg_dark": "hsl(40 94% 90.8% / 0.1)"
   }
 }
